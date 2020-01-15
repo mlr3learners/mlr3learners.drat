@@ -8,7 +8,7 @@ output: github_document
 Install mlr3 learners from this repository using
 
 ```r
-install.packages(..., repos = c("https://mlr-org.github.io/mlr3learners.drat"))
+install.packages(..., repos = "https://mlr3learners.github.io/mlr3learners.drat")
 ``` 
 
 ## File listing
