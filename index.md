@@ -13,6 +13,10 @@ install.packages(..., repos = c("https://mlr-org.github.io/mlr3learners.drat"))
 
 ## File listing
 
+- [`bin/macosx/el-capitan/contrib/3.5/mlr3learner.ksvm_0.1.0.tgz`](bin/macosx/el-capitan/contrib/3.5/mlr3learner.ksvm_0.1.0.tgz)
+- [`bin/macosx/el-capitan/contrib/3.5/PACKAGES`](bin/macosx/el-capitan/contrib/3.5/PACKAGES)
+- [`bin/macosx/el-capitan/contrib/3.5/PACKAGES.gz`](bin/macosx/el-capitan/contrib/3.5/PACKAGES.gz)
+- [`bin/macosx/el-capitan/contrib/3.5/PACKAGES.rds`](bin/macosx/el-capitan/contrib/3.5/PACKAGES.rds)
 - [`index.md`](index.md)
 - [`index.Rmd`](index.Rmd)
 - [`mlr3learners.drat.Rproj`](mlr3learners.drat.Rproj)
