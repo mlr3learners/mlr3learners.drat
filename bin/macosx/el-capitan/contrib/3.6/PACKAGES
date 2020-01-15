@@ -1,0 +1,7 @@
+Package: mlr3learner.ksvm
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: checkmate, data.table, kernlab, mlr3, mlr3misc, paradox, R6
+Suggests: randomForest, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 9cf93f5f4e2a52f2899622b13db35c75
