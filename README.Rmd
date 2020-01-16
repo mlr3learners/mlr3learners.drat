@@ -30,7 +30,7 @@ write("options(repos = structure(c(getOption('repos'),
 With this, you are able to install any learner from the [mlr3learners](https://github.com/mlr3learners) organization as simple as 
 
 ```{r, eval = FALSE}
-install.packages("mlr3learner.ksvm")
+install.packages("mlr3learners.ksvm")
 ```
 
 ## Available packages
@@ -38,7 +38,7 @@ install.packages("mlr3learner.ksvm")
 List of all available learners in this organization
 
 ```{r echo=FALSE}
-available.packages(repos = "https://mlr3learners.github.io/mlr3learners.drat")[, 1]
+as.character(available.packages(repos = "https://mlr3learners.github.io/mlr3learners.drat")[, 1])
 ```
 
 ## How it works

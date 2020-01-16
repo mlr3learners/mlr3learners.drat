@@ -35,14 +35,14 @@ With this, you are able to install any learner from the
 as
 
 ``` r
-install.packages("mlr3learner.ksvm")
+install.packages("mlr3learners.ksvm")
 ```
 
 ## Available packages
 
 List of all available learners in this organization
 
-    ## [1] "mlr3learner.ksvm"
+    ## [1] "mlr3learners.ksvm"
 
 ## How it works
 
