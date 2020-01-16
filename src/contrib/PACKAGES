@@ -4,5 +4,5 @@ Depends: R (>= 3.1.0)
 Imports: checkmate, data.table, kernlab, mlr3, mlr3misc, paradox, R6
 Suggests: randomForest, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 22a1ace8ca4af8d9baf440bcfab5e12e
+MD5sum: 69f0b5b8f380a84ef3277759fd0dd84b
 NeedsCompilation: no
