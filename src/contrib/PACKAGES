@@ -6,3 +6,12 @@ Suggests: randomForest, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 126660754593a4f78aef077f67a49e0e
 NeedsCompilation: no
+
+Package: mlr3learners.ksvm
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: checkmate, data.table, kernlab, mlr3, mlr3misc, paradox, R6
+Suggests: randomForest, rmarkdown, testthat
+License: LGPL-3
+MD5sum: e85ec3f9992a5e1ddfa448780614cdb1
+NeedsCompilation: no
