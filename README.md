@@ -11,8 +11,28 @@ Install mlr3 learners from this repository using
 install.packages(..., repos = "https://mlr3learners.github.io/mlr3learners.drat")
 ```
 
-## File listing
+To omit having to pass the `repos` argument every single time, add the
+following to your `.Rprofile`:
 
-  - [`mlr3learners.drat.Rproj`](mlr3learners.drat.Rproj)
-  - [`README.md`](README.md)
-  - [`README.Rmd`](README.Rmd)
+``` r
+options(repos = structure(c(getOption("repos"),
+  mlr3learners = "https://mlr3learners.github.io/mlr3learners.drat")))
+```
+
+This will append this drat repo to your list of available repositories
+which `install.packages()` will check when trying to install a package.
+With this, you are able to install mlr3learners as simple as
+
+``` r
+install.packages("mlr3learner.ksvm")
+```
+
+## Available packages
+
+    ## [1] "mlr3learner.ksvm"
+
+## How it works
+
+The package sources of the listed packages (including binaries for macOS
+and Windows) are build during a CI run (once a week) and automatically
+deployed to this repo.
