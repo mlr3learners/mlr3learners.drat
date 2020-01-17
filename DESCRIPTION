@@ -9,6 +9,7 @@ Authors@R:
            comment = c(ORCID = "0000-0003-0748-6624"))
 Description: What the package does (one paragraph).
 License: LGPL (>= 2.1)
+URL: https://github.com/mlr3learners/mlr3learners.drat
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
