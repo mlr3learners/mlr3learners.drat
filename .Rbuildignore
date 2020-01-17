@@ -1,0 +1,4 @@
+^tic\.R$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.Rhistory$
