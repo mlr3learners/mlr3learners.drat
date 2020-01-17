@@ -1,6 +1,3 @@
-# installs dependencies, runs R CMD check, runs covr::codecov()
-do_package_checks()
-
 get_stage("before_deploy") %>%
   add_step(step_setup_push_deploy(branch = "master", orphan = FALSE))
 
