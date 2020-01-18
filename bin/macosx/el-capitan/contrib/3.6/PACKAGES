@@ -21,3 +21,12 @@ Imports: checkmate, data.table, kernlab, mlr3, mlr3misc, paradox, R6
 Suggests: randomForest, rmarkdown, testthat
 License: LGPL-3
 MD5sum: e58b0d867c6a85fef66b7598dddba32a
+
+Package: mlr3learners.mboost
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: checkmate, data.table, mboost, mlr3, mlr3misc, paradox, R6,
+        withr
+Suggests: rmarkdown, testthat
+License: LGPL-3
+MD5sum: 2c2422fd492c9e271d6cceb116735a7a
