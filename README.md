@@ -5,7 +5,8 @@
 the
 [mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat)
 project.  
-Install mlr3 learners from this repository using
+Install mlr3 learners from this repository
+using
 
 ``` r
 install.packages(..., repos = "https://mlr3learners.github.io/mlr3learners.drat")
