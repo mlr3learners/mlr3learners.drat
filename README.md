@@ -49,7 +49,7 @@ List of all available learners in this organization
 ## How it works
 
 The package sources of the listed packages (including binaries for macOS
-and Windows) are build during a CI run (once a week) and automatically
+and Windows) are build during a CI run and automatically
 deployed to this repo. The work behind the scenes is highly simplified
 by packages [{tic}](https://github.com/ropensci/tic) and
 [{drat}](https://github.com/eddelbuettel/drat).
