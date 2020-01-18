@@ -69,13 +69,13 @@ by packages [{tic}](https://github.com/ropensci/tic) and
     
     ``` r
     tic::use_tic(wizard = FALSE, mac = "none", deploy = "travis", 
-      travis_endpoint = ".org", travis_private_key_name = "id_rsa")
+      travis_endpoint = ".org", travis_key_name_private = "id_rsa")
     ```
 
 3.  Add `do_drat("mlr3learners/mlr3learners.drat")` to `tic.R`
 
-4.  Copy [these two
-    lines](\(https://github.com/mlr3learners/mlr3learners.extratrees/blob/master/appveyor.yml#L35-L36\))
+4.  Copy [these
+    lines](https://github.com/mlr3learners/mlr3learners.extratrees/blob/1ddf5f96778f4ccf5f55306cb5193d394d12b536/appveyor.yml#L30-L37)
     as env var “id\_rsa” into your `appveyor.yml` file.
 
 5.  Now go to Travis CI (org) (`travis::browse_travis(endpoint =
@@ -89,3 +89,5 @@ by packages [{tic}](https://github.com/ropensci/tic) and
     2.  Create a new SSH key pair. Add the private key as a secure env
         var “id\_rsa” to Travis CI for your repo. Then add the public
         key to {mlr3learners.drat}
+
+6. Update the badges in DESCRIPTION and make sure to add a "URL" field.
