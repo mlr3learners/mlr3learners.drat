@@ -24,3 +24,13 @@ Suggests: randomForest, rmarkdown, testthat
 License: LGPL-3
 MD5sum: de190d2cfcd62dfc40a83df0f41f00a6
 NeedsCompilation: no
+
+Package: mlr3learners.mboost
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: checkmate, data.table, mboost, mlr3, mlr3misc, paradox, R6,
+        withr
+Suggests: rmarkdown, testthat
+License: LGPL-3
+MD5sum: 9727eed26b101400cddfd0fa6dff2d22
+NeedsCompilation: no
