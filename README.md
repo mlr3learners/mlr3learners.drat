@@ -44,7 +44,7 @@ install.packages("mlr3learners.ksvm")
 List of all available learners in this organization
 
     ## [1] "mlr3learners.extratrees" "mlr3learners.fnn"       
-    ## [3] "mlr3learners.ksvm"
+    ## [3] "mlr3learners.ksvm"       "mlr3learners.mboost"
 
 ## How it works
 
