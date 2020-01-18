@@ -69,7 +69,7 @@ by packages [{tic}](https://github.com/ropensci/tic) and
     
     ``` r
     tic::use_tic(wizard = FALSE, mac = "none", deploy = "travis", 
-      travis_endpoint = ".org", travis_private_key_name = "id_rsa")
+      travis_endpoint = ".org", travis_key_name_private = "id_rsa")
     ```
 
 3.  Add `do_drat("mlr3learners/mlr3learners.drat")` to `tic.R`
