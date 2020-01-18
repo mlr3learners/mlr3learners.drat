@@ -6,6 +6,14 @@ Suggests: rmarkdown, testthat
 License: LGPL-3
 MD5sum: 6c26518339b6b7690f6f3e1195489039
 
+Package: mlr3learners.fnn
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: checkmate, data.table, FNN, mlr3, mlr3misc, paradox, R6
+Suggests: rmarkdown, testthat
+License: LGPL-3
+MD5sum: 39a9030f0b75943b8b4ce838a5abee85
+
 Package: mlr3learners.ksvm
 Version: 0.1.0
 Depends: R (>= 3.1.0)
