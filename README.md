@@ -43,7 +43,7 @@ install.packages("mlr3learners.ksvm")
 List of all available learners in this organization
 
     ## [1] "mlr3learners.extratrees" "mlr3learners.fnn"       
-    ## [3] "mlr3learners.ksvm"
+    ## [3] "mlr3learners.ksvm"       "mlr3learners.mboost"
 
 ## How it works
 
@@ -73,18 +73,31 @@ by packages [{tic}](https://github.com/ropensci/tic) and
 
 3.  Add `do_drat("mlr3learners/mlr3learners.drat")` to `tic.R`
 
-4.  Copy [these two
-    lines](\(https://github.com/mlr3learners/mlr3learners.extratrees/blob/master/appveyor.yml#L35-L36\))
-    as env var “id\_rsa” into your `appveyor.yml` file.
+4.  Create a SSH key pair to enable deployment for the Appveyor build
+    (which creates the Windows binaries). Unfortunately reusing the same
+    key pair on Appveyor leads to random authentication errors.
+    
+    ``` r
+    key <- openssl::rsa_keygen()
+    travis:::get_public_key(key)$ssh
+    travis:::encode_private_key(key)
+    ```
+    
+    Encode the private key by going to the mlr3learners Appveyor CI
+    account `Account -> Encrypt YAML`. Copy the encoded key as
+    environment variable “id\_rsa” into `appveyor.yml`. Have a look at
+    other learners if you need help. The public key needs to be added to
+    {mlr3learner.drat} via `Settings -> Deploy key`.
 
-5.  Now go to Travis CI (org) (`travis::browse_travis(endpoint =
-    ".org")`) and delete the “id\_rsa” env var. Unfortunately Travis CI
-    does not support encrypting SSH private keys via the CLI tool.
-    Therefore, two options exist:
+5.  Go to Travis CI (org) (`travis::browse_travis(endpoint = ".org")`)
+    and delete the “id\_rsa” env var. Unfortunately Travis CI does not
+    support encrypting SSH private keys via the CLI tool. Therefore, two
+    options exist:
     
     1.  Ping @pat-s to add the private key which is also used for other
         mlr3learners repo to your repo as secure env var (preferred to
         have only one key stored in the repo).
-    2.  Create a new SSH key pair. Add the private key as a secure env
-        var “id\_rsa” to Travis CI for your repo. Then add the public
-        key to {mlr3learners.drat}
+    2.  Create a new SSH key pair (you can use the same one that you
+        created for Appveyor). Add the private key as a secure env var
+        “id\_rsa” to Travis CI (`travis::set_env_var()`). Then add the
+        public key to {mlr3learners.drat}.
