@@ -32,5 +32,5 @@ Imports: checkmate, data.table, mboost, mlr3, mlr3misc, paradox, R6,
         withr
 Suggests: rmarkdown, testthat
 License: LGPL-3
-MD5sum: e0ad237f1518103c24232cc197b4e05e
+MD5sum: 234f27a99f35a39f5a6a64a08cc3a2c8
 NeedsCompilation: no
