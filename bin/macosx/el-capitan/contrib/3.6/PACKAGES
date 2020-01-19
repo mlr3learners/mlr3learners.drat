@@ -29,4 +29,4 @@ Imports: checkmate, data.table, mboost, mlr3, mlr3misc, paradox, R6,
         withr
 Suggests: rmarkdown, testthat
 License: LGPL-3
-MD5sum: 2c2422fd492c9e271d6cceb116735a7a
+MD5sum: d52a5d0abe5f6f20dc1e0d9a1cecff62
