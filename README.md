@@ -1,12 +1,11 @@
 
-# mlr3learners/mlr3learners.drat
+# mlr3learners.drat
 
 [`drat`](https://github.com/eddelbuettel/drat) package repository for
 the
 [mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat)
 project.  
-Install mlr3 learners from this repository
-using
+Install mlr3 learners from this repository using
 
 ``` r
 install.packages(..., repos = "https://mlr3learners.github.io/mlr3learners.drat")
@@ -56,49 +55,29 @@ by packages [{tic}](https://github.com/ropensci/tic) and
 
 ### How to add a mlr3learner to {mlr3learners.drat}
 
-1.  Enable the learner on both Travis CI and Appveyor CI
+1.  Make sure your repo already uses GitHub Actions. If not, call
+    `tic::use_ghactions_yml(deploy = TRUE)`.
 
-<!-- end list -->
+2.  Source `init_mlr3learner_drat_deploy()` from this Gist and call the
+    function with the name of the repo, e.g. “mlr3learners.mboost”. This
+    will add a private key as a “secret” to your repo and a public
+    deploy key to mlr3learners/mlr3learners.drat, making it possible to
+    deploy to the latter from your repo.
 
-  - `travis::travis_enable(endpoint = ".org")`
-  - Manual activation for Appveyor CI
+3.  Replace `TIC_DEPLOY_KEY: ${{ secrets.TIC_DEPLOY_KEY }}` by `id_rsa:
+    ${{ secrets.id_rsa }}` in `.github/workflows/main.yml`.
 
-<!-- end list -->
+4.  Replace the condition for steps “Before deploy” and “Deploy” with
+    `if : matrix.config.r != 'devel'`. This enables deployment on all
+    platforms but excludes builds that use R-devel.
 
-2.  Add `tic.R` and CI YAML files. Simplified by using
-    
-    ``` r
-    tic::use_tic(wizard = FALSE, mac = "none", deploy = "travis", 
-      travis_endpoint = ".org", travis_private_key_name = "id_rsa")
-    ```
+5.  Now the macOS and Windows runners will push their binaries to
+    mlr3learners.drat for every no-devel version (i.e. versions without
+    .9000 at the end). The Linux runner will push the `.tar.gz` file to
+    install the learner from source.
 
-3.  Add `do_drat("mlr3learners/mlr3learners.drat")` to `tic.R`
+**Note**
 
-4.  Create a SSH key pair to enable deployment for the Appveyor build
-    (which creates the Windows binaries). Unfortunately reusing the same
-    key pair on Appveyor leads to random authentication errors.
-    
-    ``` r
-    key <- openssl::rsa_keygen()
-    travis:::get_public_key(key)$ssh
-    travis:::encode_private_key(key)
-    ```
-    
-    Encode the private key by going to the mlr3learners Appveyor CI
-    account `Account -> Encrypt YAML`. Copy the encoded key as
-    environment variable “id\_rsa” into `appveyor.yml`. Have a look at
-    other learners if you need help. The public key needs to be added to
-    {mlr3learner.drat} via `Settings -> Deploy key`.
-
-5.  Go to Travis CI (org) (`travis::browse_travis(endpoint = ".org")`)
-    and delete the “id\_rsa” env var. Unfortunately Travis CI does not
-    support encrypting SSH private keys via the CLI tool. Therefore, two
-    options exist:
-    
-    1.  Ping @pat-s to add the private key which is also used for other
-        mlr3learners repo to your repo as secure env var (preferred to
-        have only one key stored in the repo).
-    2.  Create a new SSH key pair (you can use the same one that you
-        created for Appveyor). Add the private key as a secure env var
-        “id\_rsa” to Travis CI (`travis::set_env_var()`). Then add the
-        public key to {mlr3learners.drat}.
+It is very important to only push once for a release and then switch
+again to a dev version. Otherwise, binaries will be pushed during every
+CI run, bloating up the repo size of mlr3learners.drat.
