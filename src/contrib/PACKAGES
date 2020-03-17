@@ -26,11 +26,11 @@ MD5sum: de190d2cfcd62dfc40a83df0f41f00a6
 NeedsCompilation: no
 
 Package: mlr3learners.mboost
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.1.0)
 Imports: checkmate, data.table, mboost, mlr3, mlr3misc, paradox, R6,
         withr
 Suggests: rmarkdown, testthat
 License: LGPL-3
-MD5sum: 234f27a99f35a39f5a6a64a08cc3a2c8
+MD5sum: 0411f44aad97cbcb691d6149eaa564fa
 NeedsCompilation: no
