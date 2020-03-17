@@ -5,7 +5,8 @@
 the
 [mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat)
 project.  
-Install mlr3 learners from this repository using
+Install mlr3 learners from this repository
+using
 
 ``` r
 install.packages(..., repos = "https://mlr3learners.github.io/mlr3learners.drat")
@@ -59,7 +60,7 @@ by packages [{tic}](https://github.com/ropensci/tic) and
     `tic::use_ghactions_yml(deploy = TRUE)`.
 
 2.  Source `init_mlr3learner_drat_deploy()` from this Gist and call the
-    function with the name of the repo, e.g. “mlr3learners.mboost”. This
+    function with the name of the repo, e.g. “mlr3learners.mboost”. This
     will add a private key as a “secret” to your repo and a public
     deploy key to mlr3learners/mlr3learners.drat, making it possible to
     deploy to the latter from your repo.
@@ -78,6 +79,6 @@ by packages [{tic}](https://github.com/ropensci/tic) and
 
 **Note**
 
-It is very important to only push once for a release and then switch
-again to a dev version. Otherwise, binaries will be pushed during every
-CI run, bloating up the repo size of mlr3learners.drat.
+It is very important to only init one CI run per release and then switch
+directly to a dev version. Otherwise, binaries will be pushed during
+every CI run, bloating up the repo size of mlr3learners.drat.
