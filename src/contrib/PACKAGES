@@ -1,10 +1,10 @@
 Package: mlr3learners.extratrees
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.1.0)
 Imports: checkmate, data.table, extraTrees, mlr3, mlr3misc, paradox, R6
 Suggests: rmarkdown, testthat
 License: LGPL-3
-MD5sum: 84756c0be2bd63095f4eb90bbda61859
+MD5sum: ef945cbbcd8f8e332fc6b65be560803a
 NeedsCompilation: no
 
 Package: mlr3learners.fnn
