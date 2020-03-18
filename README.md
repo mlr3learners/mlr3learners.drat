@@ -5,8 +5,7 @@
 the
 [mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat)
 project.  
-Install mlr3 learners from this repository
-using
+Install mlr3 learners from this repository using
 
 ``` r
 install.packages(..., repos = "https://mlr3learners.github.io/mlr3learners.drat")
@@ -59,17 +58,20 @@ by packages [{tic}](https://github.com/ropensci/tic) and
 1.  Make sure your repo already uses GitHub Actions. If not, call
     `tic::use_ghactions_yml(deploy = TRUE)`.
 
-2.  Source `init_mlr3learner_drat_deploy()` from this Gist and call the
-    function with the name of the repo, e.g. “mlr3learners.mboost”. This
+2.  Source `init_mlr3learner_drat_deploy()` from [this
+    Gist](https://gist.github.com/pat-s/be7b0ebc6953726d5a51a171742c3e21)
+    and call the function with the name of the repo,
+    e.g. `init_mlr3learner_drat_deploy("mlr3learners.mboost")`. This
     will add a private key as a “secret” to your repo and a public
-    deploy key to mlr3learners/mlr3learners.drat, making it possible to
-    deploy to the latter from your repo.
+    deploy key to
+    [mlr3learners/mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat),
+    making it possible to deploy to the latter from your repo.
 
 3.  Replace `TIC_DEPLOY_KEY: ${{ secrets.TIC_DEPLOY_KEY }}` by `id_rsa:
     ${{ secrets.id_rsa }}` in `.github/workflows/main.yml`.
 
 4.  Replace the condition for steps “Before deploy” and “Deploy” with
-    `if : matrix.config.r != 'devel'`. This enables deployment on all
+    `if: matrix.config.r != 'devel'`. This enables deployment on all
     platforms but excludes builds that use R-devel.
 
 5.  Now the macOS and Windows runners will push their binaries to
@@ -81,4 +83,5 @@ by packages [{tic}](https://github.com/ropensci/tic) and
 
 It is very important to only init one CI run per release and then switch
 directly to a dev version. Otherwise, binaries will be pushed during
-every CI run, bloating up the repo size of mlr3learners.drat.
+every CI run, bloating up the repo size of
+mlr3learners/mlr3learners.drat\](<https://github.com/mlr3learners/mlr3learners.drat>).
