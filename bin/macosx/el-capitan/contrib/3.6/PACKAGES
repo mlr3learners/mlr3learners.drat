@@ -12,7 +12,7 @@ Depends: R (>= 3.1.0)
 Imports: checkmate, data.table, FNN, mlr3, mlr3misc, paradox, R6
 Suggests: rmarkdown, testthat
 License: LGPL-3
-MD5sum: d3a2d48c33ed1f02610053e9c0599f76
+MD5sum: 1aaad7263b59d1c6084ce7dceb4eaabe
 
 Package: mlr3learners.ksvm
 Version: 0.1.0
