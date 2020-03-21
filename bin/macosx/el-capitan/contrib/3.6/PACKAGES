@@ -17,10 +17,10 @@ MD5sum: 1aaad7263b59d1c6084ce7dceb4eaabe
 Package: mlr3learners.gbm
 Version: 0.1.0
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3, mlr3misc, paradox, R6, gbm
-Suggests: testthat, checkmate
+Imports: data.table, gbm, mlr3, mlr3misc, paradox, R6
+Suggests: checkmate, testthat
 License: LGPL-3
-MD5sum: fa01318b25084ab8cae801c3a8f98105
+MD5sum: 5e22bd773eff20bd0b936fa538b99011
 
 Package: mlr3learners.ksvm
 Version: 0.1.0
