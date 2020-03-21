@@ -19,10 +19,10 @@ NeedsCompilation: no
 Package: mlr3learners.gbm
 Version: 0.1.0
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3, mlr3misc, paradox, R6, gbm
-Suggests: testthat, checkmate
+Imports: data.table, gbm, mlr3, mlr3misc, paradox, R6
+Suggests: checkmate, testthat
 License: LGPL-3
-MD5sum: 891313b924fc581ab7c1135f7e71b43f
+MD5sum: abfee36bc1aa5050b3318cf18182f8fb
 NeedsCompilation: no
 
 Package: mlr3learners.ksvm
