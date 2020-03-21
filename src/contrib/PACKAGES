@@ -22,7 +22,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6, gbm
 Suggests: testthat, checkmate
 License: LGPL-3
-MD5sum: 81676afdd0b9a9733e4a91450d77d359
+MD5sum: 891313b924fc581ab7c1135f7e71b43f
 NeedsCompilation: no
 
 Package: mlr3learners.ksvm
