@@ -20,10 +20,10 @@ Suggests: checkmate, testthat
 License: LGPL-3
 
 Package: mlr3learners.ksvm
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
-Imports: checkmate, data.table, kernlab, mlr3, mlr3misc, paradox, R6
-Suggests: randomForest, rmarkdown, testthat
+Imports: data.table, kernlab, mlr3, mlr3misc, paradox, R6
+Suggests: bibtex, checkmate, testthat
 License: LGPL-3
 
 Package: mlr3learners.mboost
