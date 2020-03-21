@@ -23,12 +23,12 @@ License: LGPL-3
 MD5sum: 5e22bd773eff20bd0b936fa538b99011
 
 Package: mlr3learners.ksvm
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
-Imports: checkmate, data.table, kernlab, mlr3, mlr3misc, paradox, R6
-Suggests: randomForest, rmarkdown, testthat
+Imports: data.table, kernlab, mlr3, mlr3misc, paradox, R6
+Suggests: bibtex, checkmate, testthat
 License: LGPL-3
-MD5sum: e58b0d867c6a85fef66b7598dddba32a
+MD5sum: 2b2d90cf91f855f149729b36bb807697
 
 Package: mlr3learners.mboost
 Version: 0.2.2
