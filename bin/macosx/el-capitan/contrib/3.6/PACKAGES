@@ -39,10 +39,9 @@ License: LGPL-3
 MD5sum: 2b2d90cf91f855f149729b36bb807697
 
 Package: mlr3learners.mboost
-Version: 0.2.2
+Version: 0.3.0
 Depends: R (>= 3.1.0)
-Imports: checkmate, data.table, mboost, mlr3, mlr3misc, paradox, R6,
-        withr
-Suggests: rmarkdown, testthat
+Imports: data.table, mlr3, mlr3misc, paradox, R6, mboost, withr
+Suggests: checkmate, bibtex, testthat
 License: LGPL-3
-MD5sum: 4abd6b0ba3554210e6b071919215df67
+MD5sum: 13cdb82ec7c3454043a5c5a3cf8b0f96
