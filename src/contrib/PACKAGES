@@ -49,5 +49,5 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6, mboost, withr
 Suggests: checkmate, bibtex, testthat
 License: LGPL-3
-MD5sum: e41644f409914c4d6cbfba609fcbceea
+MD5sum: 64d8e33926ddb6ec8944401cc83577c5
 NeedsCompilation: no
