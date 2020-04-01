@@ -60,3 +60,12 @@ Suggests: checkmate, bibtex, testthat
 License: LGPL-3
 MD5sum: 94dc921e0c41776cf37a59efd281d6bf
 NeedsCompilation: no
+
+Package: mlr3learners.partykit
+Version: 0.2.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3, mlr3misc, paradox, R6
+Suggests: bibtex, checkmate, partykit, testthat
+License: LGPL-3
+MD5sum: 4e335cc9c201ab10d90c969709bef746
+NeedsCompilation: no
