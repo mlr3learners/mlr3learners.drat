@@ -46,3 +46,10 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6, mboost, withr
 Suggests: checkmate, bibtex, testthat
 License: LGPL-3
+
+Package: mlr3learners.partykit
+Version: 0.2.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3, mlr3misc, paradox, R6
+Suggests: bibtex, checkmate, partykit, testthat
+License: LGPL-3
