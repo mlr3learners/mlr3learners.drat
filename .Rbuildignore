@@ -7,3 +7,6 @@
 ^bin$
 ^index\.md$
 ^README\.Rmd$
+^\.travis\.yml$
+^\.lintr$
+^\.vscode$
