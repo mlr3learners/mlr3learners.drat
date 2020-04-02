@@ -30,7 +30,7 @@ write("options(repos = structure(c(getOption('repos'),
 With this, you are able to install any learner from the [mlr3learners](https://github.com/mlr3learners) organization as simple as 
 
 ```{r, eval = FALSE}
-install.packages("mlr3learners.ksvm")
+install.packages("mlr3learners.kernlab")
 ```
 
 ## Available packages

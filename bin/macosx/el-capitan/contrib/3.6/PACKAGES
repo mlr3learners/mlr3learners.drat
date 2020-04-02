@@ -38,14 +38,6 @@ Suggests: bibtex, checkmate, testthat
 License: LGPL-3
 MD5sum: 3316ee1b78125c6b0e10bb2a30c90e7a
 
-Package: mlr3learners.ksvm
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, kernlab, mlr3, mlr3misc, paradox, R6
-Suggests: bibtex, checkmate, testthat
-License: LGPL-3
-MD5sum: 2b2d90cf91f855f149729b36bb807697
-
 Package: mlr3learners.mboost
 Version: 0.3.0
 Depends: R (>= 3.1.0)

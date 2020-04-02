@@ -14,14 +14,6 @@ Suggests: rmarkdown, testthat
 License: LGPL-3
 MD5sum: 39a9030f0b75943b8b4ce838a5abee85
 
-Package: mlr3learners.ksvm
-Version: 0.1.0
-Depends: R (>= 3.1.0)
-Imports: checkmate, data.table, kernlab, mlr3, mlr3misc, paradox, R6
-Suggests: randomForest, rmarkdown, testthat
-License: LGPL-3
-MD5sum: ac9971673e8b7484b5a2a99e5618beed
-
 Package: mlr3learners.mboost
 Version: 0.1.0
 Depends: R (>= 3.1.0)

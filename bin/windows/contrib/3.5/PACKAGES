@@ -12,13 +12,6 @@ Imports: checkmate, data.table, FNN, mlr3, mlr3misc, paradox, R6
 Suggests: rmarkdown, testthat
 License: LGPL-3
 
-Package: mlr3learners.ksvm
-Version: 0.1.0
-Depends: R (>= 3.1.0)
-Imports: checkmate, data.table, kernlab, mlr3, mlr3misc, paradox, R6
-Suggests: randomForest, rmarkdown, testthat
-License: LGPL-3
-
 Package: mlr3learners.mboost
 Version: 0.1.0
 Depends: R (>= 3.1.0)
