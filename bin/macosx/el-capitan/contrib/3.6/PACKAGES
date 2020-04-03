@@ -12,7 +12,7 @@ Depends: R (>= 3.1.0)
 Imports: C50, data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: checkmate, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 7912c8839f4a218fa0d5ba7b5e4405f9
+MD5sum: fe93c694eaaefbe8bafb2469b4ba103b
 
 Package: mlr3learners.extratrees
 Version: 0.2.0
