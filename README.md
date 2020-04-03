@@ -5,7 +5,8 @@
 the
 [mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat)
 project.  
-Install mlr3 learners from this repository using
+Install mlr3 learners from this repository
+using
 
 ``` r
 install.packages(..., repos = "https://mlr3learners.github.io/mlr3learners.drat")
@@ -44,10 +45,9 @@ install.packages("mlr3learners.kernlab")
 
 List of all available learners in this organization
 
-    ## [1] "mlr3learners.C50"        "mlr3learners.extratrees"
-    ## [3] "mlr3learners.fnn"        "mlr3learners.gbm"       
-    ## [5] "mlr3learners.kernlab"    "mlr3learners.ksvm"      
-    ## [7] "mlr3learners.mboost"     "mlr3learners.partykit"
+    ## [1] "mlr3learners.extratrees" "mlr3learners.fnn"       
+    ## [3] "mlr3learners.gbm"        "mlr3learners.kernlab"   
+    ## [5] "mlr3learners.mboost"     "mlr3learners.partykit"
 
 ## How it works
 
@@ -64,10 +64,9 @@ by packages [{tic}](https://github.com/ropensci/tic) and
 
 2.  Source `init_mlr3learner_drat_deploy()` from [this
     Gist](https://gist.github.com/pat-s/be7b0ebc6953726d5a51a171742c3e21)
-    and call the function with the name of the repo,
-    e.g. `init_mlr3learner_drat_deploy("mlr3learners.mboost")`. This
-    will add a private key as a “secret” to your repo and a public
-    deploy key to
+    and call the function with the name of the repo, e.g.
+    `init_mlr3learner_drat_deploy("mlr3learners.mboost")`. This will add
+    a private key as a “secret” to your repo and a public deploy key to
     [mlr3learners/mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat),
     making it possible to deploy to the latter from your repo.
 
