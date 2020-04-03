@@ -48,12 +48,9 @@ install.packages("mlr3learners.kernlab")
 
 List of all available learners in this organization
 
-    ## [1] "mlr3learners.c50"       
-    ## [2] "mlr3learners.extratrees"
-    ## [3] "mlr3learners.fnn"       
-    ## [4] "mlr3learners.gbm"       
-    ## [5] "mlr3learners.kernlab"   
-    ## [6] "mlr3learners.mboost"    
+    ## [1] "mlr3learners.c50"        "mlr3learners.extratrees"
+    ## [3] "mlr3learners.fnn"        "mlr3learners.gbm"       
+    ## [5] "mlr3learners.kernlab"    "mlr3learners.mboost"    
     ## [7] "mlr3learners.partykit"
 
 ## How it works
