@@ -5,8 +5,7 @@
 the
 [mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat)
 project.  
-Install mlr3 learners from this repository
-using
+Install mlr3 learners from this repository using
 
 ``` r
 install.packages(..., repos = "https://mlr3learners.github.io/mlr3learners.drat")
@@ -30,6 +29,8 @@ write("options(repos = structure(c(getOption('repos'),
   mlr3learners = 'https://mlr3learners.github.io/mlr3learners.drat')))",
   file = "~/.Rprofile", append = TRUE)
 ```
+
+**Note: Restart your R session to make use of the new option.**
 
 With this, you are able to install any learner from the
 [mlr3learners](https://github.com/mlr3learners) organization as simple
@@ -63,9 +64,10 @@ by packages [{tic}](https://github.com/ropensci/tic) and
 
 2.  Source `init_mlr3learner_drat_deploy()` from [this
     Gist](https://gist.github.com/pat-s/be7b0ebc6953726d5a51a171742c3e21)
-    and call the function with the name of the repo, e.g.
-    `init_mlr3learner_drat_deploy("mlr3learners.mboost")`. This will add
-    a private key as a “secret” to your repo and a public deploy key to
+    and call the function with the name of the repo,
+    e.g. `init_mlr3learner_drat_deploy("mlr3learners.mboost")`. This
+    will add a private key as a “secret” to your repo and a public
+    deploy key to
     [mlr3learners/mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat),
     making it possible to deploy to the latter from your repo.
 

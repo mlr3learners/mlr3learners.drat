@@ -27,6 +27,8 @@ write("options(repos = structure(c(getOption('repos'),
   file = "~/.Rprofile", append = TRUE)
 ```
 
+**Note: Restart your R session to make use of the new option.**
+
 With this, you are able to install any learner from the [mlr3learners](https://github.com/mlr3learners) organization as simple as 
 
 ```{r, eval = FALSE}
@@ -38,7 +40,8 @@ install.packages("mlr3learners.kernlab")
 List of all available learners in this organization
 
 ```{r echo=FALSE}
-as.character(available.packages(repos = "https://mlr3learners.github.io/mlr3learners.drat")[, 1])
+# need to exclude ksvm manually because its still somewhere in the index but not available anymore (renamed to kernlab)
+setdiff(as.character(available.packages(repos = "https://mlr3learners.github.io/mlr3learners.drat")[, 1]), c("mlr3learners.ksvm", "mlr3learners.C50"))
 ```
 
 ## How it works
