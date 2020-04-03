@@ -19,11 +19,13 @@ options(repos = structure(c(getOption("repos"),
 ```
 
 This will append this drat repo to your list of available repositories which `install.packages()` will check when trying to install a package.
-If you want a c/p command for this: The following will append the line above to your `~/.Rprofile`:
+If you want a c/p command for this: The following will append the line above to your `~/.Rprofile` while keeping your currently set CRAN mirror:
 
 ```{r}
-write("options(repos = structure(c(getOption('repos'),
+cran = getOption('repos')[['CRAN']] 
+write(sprintf("options(repos = structure(c(CRAN = '%s',
   mlr3learners = 'https://mlr3learners.github.io/mlr3learners.drat')))",
+   cran),
   file = "~/.Rprofile", append = TRUE)
 ```
 

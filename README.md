@@ -22,11 +22,14 @@ options(repos = structure(c(getOption("repos"),
 This will append this drat repo to your list of available repositories
 which `install.packages()` will check when trying to install a package.
 If you want a c/p command for this: The following will append the line
-above to your `~/.Rprofile`:
+above to your `~/.Rprofile` while keeping your currently set CRAN
+mirror:
 
 ``` r
-write("options(repos = structure(c(getOption('repos'),
+cran = getOption('repos')[['CRAN']] 
+write(sprintf("options(repos = structure(c(CRAN = '%s',
   mlr3learners = 'https://mlr3learners.github.io/mlr3learners.drat')))",
+   cran),
   file = "~/.Rprofile", append = TRUE)
 ```
 
@@ -44,10 +47,13 @@ install.packages("mlr3learners.kernlab")
 
 List of all available learners in this organization
 
-    ## [1] "mlr3learners.C50"        "mlr3learners.extratrees"
-    ## [3] "mlr3learners.fnn"        "mlr3learners.gbm"       
-    ## [5] "mlr3learners.kernlab"    "mlr3learners.ksvm"      
-    ## [7] "mlr3learners.mboost"     "mlr3learners.partykit"
+    ## [1] "mlr3learners.c50"       
+    ## [2] "mlr3learners.extratrees"
+    ## [3] "mlr3learners.fnn"       
+    ## [4] "mlr3learners.gbm"       
+    ## [5] "mlr3learners.kernlab"   
+    ## [6] "mlr3learners.mboost"    
+    ## [7] "mlr3learners.partykit"
 
 ## How it works
 
