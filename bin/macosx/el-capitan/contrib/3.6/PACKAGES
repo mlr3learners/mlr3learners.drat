@@ -1,3 +1,11 @@
+Package: mlr3learners.C50
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: C50, data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
+Suggests: checkmate, rmarkdown, testthat
+License: LGPL-3
+MD5sum: de1cf40af54ef58288bfd82f932904dc
+
 Package: mlr3learners.c50
 Version: 0.1.2
 Depends: R (>= 3.1.0)
@@ -23,12 +31,12 @@ License: LGPL-3
 MD5sum: 1aaad7263b59d1c6084ce7dceb4eaabe
 
 Package: mlr3learners.gbm
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.1.0)
-Imports: data.table, gbm, mlr3, mlr3misc, paradox, R6
-Suggests: checkmate, testthat
+Imports: data.table, mlr3, mlr3misc, paradox, R6
+Suggests: checkmate, gbm, testthat
 License: LGPL-3
-MD5sum: d2e16b311a891c35112e565b09c4673c
+MD5sum: 6650357b767f7fbf93cb4f6fdb83022b
 
 Package: mlr3learners.kernlab
 Version: 0.2.0
