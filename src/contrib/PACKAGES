@@ -52,6 +52,15 @@ License: LGPL-3
 MD5sum: 1481447ea6d469e67d6bc333640e0c82
 NeedsCompilation: no
 
+Package: mlr3learners.liblinear
+Version: 0.2.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3, mlr3misc, LiblineaR, paradox, R6
+Suggests: bibtex, checkmate, testthat
+License: LGPL-3
+MD5sum: e1639e97dc71c66e580e350c2903558b
+NeedsCompilation: no
+
 Package: mlr3learners.mboost
 Version: 0.3.0
 Depends: R (>= 3.1.0)
