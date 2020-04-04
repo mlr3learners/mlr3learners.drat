@@ -1,3 +1,10 @@
+Package: mlr3learners.C50
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: C50, data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
+Suggests: checkmate, rmarkdown, testthat
+License: LGPL-3
+
 Package: mlr3learners.c50
 Version: 0.1.2
 Depends: R (>= 3.1.0)
@@ -20,10 +27,10 @@ Suggests: rmarkdown, testthat
 License: LGPL-3
 
 Package: mlr3learners.gbm
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.1.0)
-Imports: data.table, gbm, mlr3, mlr3misc, paradox, R6
-Suggests: checkmate, testthat
+Imports: data.table, mlr3, mlr3misc, paradox, R6
+Suggests: checkmate, gbm, testthat
 License: LGPL-3
 
 Package: mlr3learners.kernlab
