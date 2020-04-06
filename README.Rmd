@@ -53,6 +53,9 @@ The work behind the scenes is highly simplified by packages [{tic}](https://gith
 
 ### How to add a mlr3learner to {mlr3learners.drat}
 
+1. Check if you belong to the [mlr3learners.drat team](https://github.com/orgs/mlr3learners/teams/mlr3learners-drat) of the mlr3learners organization.
+   If not, ask @pat-s to add you - otherwise, you do not have permission to add deploy keys to this repository.
+
 1. Make sure your repo already uses GitHub Actions. 
   If not, call `tic::use_ghactions_yml(deploy = TRUE)`.
   
