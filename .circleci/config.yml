@@ -85,4 +85,7 @@ workflows:
                 - master
     jobs:
       - r-release
+      - deploy:
+          requires:
+            - r-release
 # Custom user code -------------------------------------------------------------
