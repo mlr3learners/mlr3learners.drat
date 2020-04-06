@@ -64,10 +64,16 @@ by packages [{tic}](https://github.com/ropensci/tic) and
 
 ### How to add a mlr3learner to {mlr3learners.drat}
 
-1.  Make sure your repo already uses GitHub Actions. If not, call
+1.  Check if you belong to the [mlr3learners.drat
+    team](https://github.com/orgs/mlr3learners/teams/mlr3learners-drat)
+    of the mlr3learners organization. If not, ask @pat-s to add you -
+    otherwise, you do not have permission to add deploy keys to this
+    repository.
+
+2.  Make sure your repo already uses GitHub Actions. If not, call
     `tic::use_ghactions_yml(deploy = TRUE)`.
 
-2.  Source `init_mlr3learner_drat_deploy()` from [this
+3.  Source `init_mlr3learner_drat_deploy()` from [this
     Gist](https://gist.github.com/pat-s/be7b0ebc6953726d5a51a171742c3e21)
     and call the function with the name of the repo, e.g.
     `init_mlr3learner_drat_deploy("mlr3learners.mboost")`. This will add
@@ -75,14 +81,14 @@ by packages [{tic}](https://github.com/ropensci/tic) and
     [mlr3learners/mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat),
     making it possible to deploy to the latter from your repo.
 
-3.  Replace `TIC_DEPLOY_KEY: ${{ secrets.TIC_DEPLOY_KEY }}` by `id_rsa:
+4.  Replace `TIC_DEPLOY_KEY: ${{ secrets.TIC_DEPLOY_KEY }}` by `id_rsa:
     ${{ secrets.id_rsa }}` in `.github/workflows/main.yml`.
 
-4.  Replace the condition for steps “Before deploy” and “Deploy” with
+5.  Replace the condition for steps “Before deploy” and “Deploy” with
     `if: matrix.config.r != 'devel'`. This enables deployment on all
     platforms but excludes builds that use R-devel.
 
-5.  Now the macOS and Windows runners will push their binaries to
+6.  Now the macOS and Windows runners will push their binaries to
     mlr3learners.drat for every no-devel version (i.e. versions without
     .9000 at the end). The Linux runner will push the `.tar.gz` file to
     install the learner from source.
