@@ -78,3 +78,12 @@ Suggests: bibtex, checkmate, partykit, testthat
 License: LGPL-3
 MD5sum: 4e335cc9c201ab10d90c969709bef746
 NeedsCompilation: no
+
+Package: mlr3learners.rweka
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
+Suggests: checkmate, rmarkdown, RWeka, testthat
+License: LGPL-3
+MD5sum: df0cd326810f9cd921111b3db385c968
+NeedsCompilation: no
