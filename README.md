@@ -70,14 +70,11 @@ by packages [{tic}](https://github.com/ropensci/tic) and
     otherwise, you do not have permission to add deploy keys to this
     repository.
 
-2.  Make sure you have a `GITHUB_PAT` set for the GitHub API calls. If
+1.  Make sure you have a `GITHUB_PAT` set for the GitHub API calls. If
     you do not know what this is, read
     `?usethis::browse_github_token()`.
 
-3.  Make sure your repo already uses GitHub Actions. If not, call
-    `tic::use_ghactions_yml(deploy = TRUE)`.
-
-4.  Source `init_mlr3learner_drat_deploy()` from [this
+1.  Source `init_mlr3learner_drat_deploy()` from [this
     Gist](https://gist.github.com/pat-s/be7b0ebc6953726d5a51a171742c3e21)
     and call the function with the name of the repo, e.g.
     `init_mlr3learner_drat_deploy("mlr3learners.mboost")`. This will add
@@ -85,7 +82,7 @@ by packages [{tic}](https://github.com/ropensci/tic) and
     [mlr3learners/mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat),
     making it possible to deploy to the latter from your repo.
 
-5.  Now the macOS and Windows runners will push their binaries to
+1.  Now the macOS and Windows runners will push their binaries to
     mlr3learners.drat for every no-devel version (i.e. versions without
     .9000 at the end). The Linux runner will push the `.tar.gz` file to
     install the learner from source.
