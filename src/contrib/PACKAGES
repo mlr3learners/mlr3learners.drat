@@ -87,3 +87,13 @@ Suggests: checkmate, rmarkdown, RWeka, testthat
 License: LGPL-3
 MD5sum: df0cd326810f9cd921111b3db385c968
 NeedsCompilation: no
+
+Package: mlr3learners.survival
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, distr6, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
+        0.1.4.9000), paradox, R6, survival
+Suggests: checkmate, pracma, rmarkdown, set6, testthat
+License: LGPL-3
+MD5sum: 2229da116b1fba2ca6d00420d73270c2
+NeedsCompilation: no
