@@ -103,4 +103,4 @@ Imports: data.table, distr6, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
         0.1.4.9000), paradox, R6, survival
 Suggests: checkmate, pracma, rmarkdown, set6, testthat
 License: LGPL-3
-MD5sum: 54d3f394cb2e1b108fe5acce39035737
+MD5sum: bd3d5d08abcb0dd7e0df3f15ec980754
