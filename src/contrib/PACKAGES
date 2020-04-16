@@ -92,8 +92,8 @@ Package: mlr3learners.survival
 Version: 0.1.0
 Depends: R (>= 3.1.0)
 Imports: data.table, distr6, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
-        0.1.4.9000), paradox, R6, survival
+        0.1.5), paradox, R6, survival
 Suggests: checkmate, pracma, rmarkdown, set6, testthat
 License: LGPL-3
-MD5sum: ff8f8d651c034ede6670b9354addf243
+MD5sum: 53dedc1aa94b0d049543bb182ce347ae
 NeedsCompilation: no
