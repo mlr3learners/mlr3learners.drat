@@ -97,7 +97,7 @@ Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
         paradox, R6, survival
 Suggests: checkmate, distr6, penalized, pracma, rmarkdown, testthat
 License: LGPL-3
-MD5sum: b567e41c57097fe92f5ed32023af7a09
+MD5sum: 61465d037e61736cfba72479768a356f
 NeedsCompilation: no
 
 Package: mlr3learners.rweka
