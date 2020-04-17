@@ -90,6 +90,16 @@ License: LGPL-3
 MD5sum: 4e335cc9c201ab10d90c969709bef746
 NeedsCompilation: no
 
+Package: mlr3learners.penalized
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6, survival
+Suggests: checkmate, distr6, penalized, pracma, rmarkdown, testthat
+License: LGPL-3
+MD5sum: b567e41c57097fe92f5ed32023af7a09
+NeedsCompilation: no
+
 Package: mlr3learners.rweka
 Version: 0.1.0
 Depends: R (>= 3.1.0)
