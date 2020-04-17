@@ -88,6 +88,15 @@ Suggests: bibtex, checkmate, partykit, testthat
 License: LGPL-3
 MD5sum: ec66be41f1091f75285cd293ea05db9a
 
+Package: mlr3learners.penalized
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6, survival
+Suggests: checkmate, distr6, penalized, pracma, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 17925a7348bedc8b7d43f43677dde0e4
+
 Package: mlr3learners.rweka
 Version: 0.1.0
 Depends: R (>= 3.1.0)
