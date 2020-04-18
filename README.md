@@ -48,11 +48,13 @@ install.packages("mlr3learners.kernlab")
 
 List of all available learners in this organization
 
-    ##  [1] "mlr3learners.c50"        "mlr3learners.extratrees"
-    ##  [3] "mlr3learners.fnn"        "mlr3learners.gbm"       
-    ##  [5] "mlr3learners.kernlab"    "mlr3learners.liblinear" 
-    ##  [7] "mlr3learners.mboost"     "mlr3learners.partykit"  
-    ##  [9] "mlr3learners.rweka"      "mlr3learners.survival"
+    ##  [1] "mlr3learners.c50"         "mlr3learners.coxboost"   
+    ##  [3] "mlr3learners.extratrees"  "mlr3learners.fnn"        
+    ##  [5] "mlr3learners.gbm"         "mlr3learners.kernlab"    
+    ##  [7] "mlr3learners.liblinear"   "mlr3learners.mboost"     
+    ##  [9] "mlr3learners.partykit"    "mlr3learners.penalized"  
+    ## [11] "mlr3learners.rweka"       "mlr3learners.survival"   
+    ## [13] "mlr3learners.survivalsvm"
 
 ## How it works
 
