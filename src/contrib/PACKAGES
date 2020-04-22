@@ -92,12 +92,12 @@ MD5sum: 94dc921e0c41776cf37a59efd281d6bf
 NeedsCompilation: no
 
 Package: mlr3learners.partykit
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6
-Suggests: bibtex, checkmate, partykit, testthat
+Suggests: bibtex, checkmate, partykit, sandwich, testthat
 License: LGPL-3
-MD5sum: 4e335cc9c201ab10d90c969709bef746
+MD5sum: 83a1a82b2413f1a5bf3afb3be2d67e47
 NeedsCompilation: no
 
 Package: mlr3learners.penalized
