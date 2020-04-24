@@ -104,7 +104,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6
 Suggests: bibtex, checkmate, partykit, sandwich, testthat
 License: LGPL-3
-MD5sum: b1e18da53a51ffb14d6ed9c3cc8ccac0
+MD5sum: c9447609934ce08223787af84a0ad601
 
 Package: mlr3learners.penalized
 Version: 0.1.0
