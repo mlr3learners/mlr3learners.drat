@@ -88,7 +88,7 @@ Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
         0.1.5.9000), paradox, R6
 Suggests: checkmate, distr6, logspline, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 91ab74314ca698646311a0fea39be5a0
+MD5sum: 26904d97ade5a6e7350aeea908120523
 
 Package: mlr3learners.mboost
 Version: 0.3.0
