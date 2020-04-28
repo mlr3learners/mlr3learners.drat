@@ -124,6 +124,15 @@ Suggests: checkmate, distr6, penalized, pracma, rmarkdown, testthat
 License: LGPL-3
 MD5sum: d4a2379b5300b1b356ec0c63a2dbd5a4
 
+Package: mlr3learners.plugdensity
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6
+Suggests: checkmate, distr6, plugdensity, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 9ab42a6079114ae0716fd195467ebc87
+
 Package: mlr3learners.rweka
 Version: 0.1.0
 Depends: R (>= 3.1.0)
