@@ -74,6 +74,15 @@ Suggests: bibtex, checkmate, testthat
 License: LGPL-3
 MD5sum: 3316ee1b78125c6b0e10bb2a30c90e7a
 
+Package: mlr3learners.ks
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
+        0.1.5.9000), paradox, R6
+Suggests: checkmate, distr6, ks, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 18b73ef6c07d03233d920a32753ba0ab
+
 Package: mlr3learners.ksvm
 Version: 0.1.1
 Depends: R (>= 3.1.0)
