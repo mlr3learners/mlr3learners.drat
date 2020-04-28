@@ -57,6 +57,15 @@ Suggests: checkmate, gbm, testthat
 License: LGPL-3
 MD5sum: 6a2f96665e6ce9cdd69757fe1fa1b6f4
 
+Package: mlr3learners.gss
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6
+Suggests: checkmate, distr6, gss, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 4bf01d2b592ffb3935b51dc986a45806
+
 Package: mlr3learners.kernlab
 Version: 0.2.0
 Depends: R (>= 3.1.0)
