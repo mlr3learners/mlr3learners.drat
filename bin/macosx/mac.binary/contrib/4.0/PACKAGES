@@ -6,3 +6,13 @@ Imports: data.table, mlr3 (>= 0.2.0.9000), mlr3misc, mlr3proba (>=
 Suggests: checkmate, distr6, pendensity, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 20b397da80c4cf4e2722c840865296fb
+
+Package: mlr3learners.randomforestsrc
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.2.0.9000), mlr3misc, mlr3proba (>=
+        0.1.5.9000), paradox, R6, survival
+Suggests: checkmate, distr6, pracma, randomForestSRC, rmarkdown,
+        testthat
+License: LGPL-3
+MD5sum: 685046b1a4e7bde817075653f82e5f37
