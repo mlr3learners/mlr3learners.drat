@@ -46,16 +46,18 @@ install.packages("mlr3learners.kernlab")
 
 ## Available packages
 
-List of all available learners in this organization
+List of all available learners in this
+    organization
 
-    ##  [1] "mlr3learners.c50"         "mlr3learners.coxboost"   
-    ##  [3] "mlr3learners.extratrees"  "mlr3learners.flexsurv"   
-    ##  [5] "mlr3learners.fnn"         "mlr3learners.gbm"        
-    ##  [7] "mlr3learners.kernlab"     "mlr3learners.liblinear"  
-    ##  [9] "mlr3learners.mboost"      "mlr3learners.np"         
-    ## [11] "mlr3learners.obliquersf"  "mlr3learners.partykit"   
-    ## [13] "mlr3learners.penalized"   "mlr3learners.rweka"      
-    ## [15] "mlr3learners.survival"    "mlr3learners.survivalsvm"
+    ##  [1] "mlr3learners.c50"             "mlr3learners.coxboost"       
+    ##  [3] "mlr3learners.extratrees"      "mlr3learners.flexsurv"       
+    ##  [5] "mlr3learners.fnn"             "mlr3learners.gbm"            
+    ##  [7] "mlr3learners.kernlab"         "mlr3learners.liblinear"      
+    ##  [9] "mlr3learners.mboost"          "mlr3learners.np"             
+    ## [11] "mlr3learners.obliquersf"      "mlr3learners.partykit"       
+    ## [13] "mlr3learners.penalized"       "mlr3learners.pendensity"     
+    ## [15] "mlr3learners.randomforestsrc" "mlr3learners.rweka"          
+    ## [17] "mlr3learners.survival"        "mlr3learners.survivalsvm"
 
 ## How it works
 
