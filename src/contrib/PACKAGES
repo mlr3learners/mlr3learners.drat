@@ -147,7 +147,7 @@ Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6,
         randomForest
 Suggests: checkmate, testthat
 License: LGPL-3
-MD5sum: d8ac6054f513ea689b8e0ef8535180a2
+MD5sum: b8dfd89306eb2653f453c0a5c45c527d
 NeedsCompilation: no
 
 Package: mlr3learners.randomforestsrc
