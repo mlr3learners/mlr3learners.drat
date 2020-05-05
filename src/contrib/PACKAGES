@@ -141,13 +141,13 @@ MD5sum: ff01cc3cd9ae7ef18f53279d5a1dfaaf
 NeedsCompilation: no
 
 Package: mlr3learners.randomforest
-Version: 0.1.0
+Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6,
         randomForest
 Suggests: checkmate, testthat
 License: LGPL-3
-MD5sum: b8dfd89306eb2653f453c0a5c45c527d
+MD5sum: 98c926f89869557fc639ebc41e05f4b8
 NeedsCompilation: no
 
 Package: mlr3learners.randomforestsrc
