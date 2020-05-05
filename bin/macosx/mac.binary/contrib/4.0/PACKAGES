@@ -14,7 +14,7 @@ Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6,
         randomForest
 Suggests: checkmate, testthat
 License: LGPL-3
-MD5sum: 5051fae74d928c55d28368db3d0c0150
+MD5sum: c096349b88c925ba781338befad20202
 
 Package: mlr3learners.randomforestsrc
 Version: 0.1.0
