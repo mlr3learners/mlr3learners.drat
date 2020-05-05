@@ -8,13 +8,13 @@ License: LGPL-3
 MD5sum: 20b397da80c4cf4e2722c840865296fb
 
 Package: mlr3learners.randomforest
-Version: 0.1.0
+Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6,
         randomForest
 Suggests: checkmate, testthat
 License: LGPL-3
-MD5sum: d45f5ba6813804205805635e38994831
+MD5sum: 5051fae74d928c55d28368db3d0c0150
 
 Package: mlr3learners.randomforestsrc
 Version: 0.1.0
