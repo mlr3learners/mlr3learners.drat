@@ -3,5 +3,5 @@ get_stage("before_deploy") %>%
 
 get_stage("deploy") %>%
   add_code_step(rmarkdown::render("README.Rmd")) %>%
-  add_code_step(step_archive_drat()) %>%
+  add_step(step_archive_drat()) %>%
   add_step(step_do_push_deploy(commit_paths = c("README.md", "bin/", "src/")))
