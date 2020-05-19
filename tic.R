@@ -3,6 +3,6 @@ get_stage("before_deploy") %>%
 
 get_stage("deploy") %>%
   add_code_step(rmarkdown::render("README.Rmd")) %>%
-  add_step(step_install_github("pat-s/drat@drat-archive")) %>%
+  add_step(step_install_github("pat-s/drat@upd-archive-pkgs")) %>%
   add_step(step_archive_drat()) %>%
   add_step(step_do_push_deploy(commit_paths = c("README.md", "bin/", "src/")))
