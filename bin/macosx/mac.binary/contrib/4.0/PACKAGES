@@ -16,6 +16,14 @@ Suggests: checkmate, distr6, locfit, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 992b3c2e15f64b1a46ce6067f67d05be
 
+Package: mlr3learners.nnet
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
+Suggests: checkmate, nnet, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 2d4246c0d96599eb15ce1dc31c791db9
+
 Package: mlr3learners.pendensity
 Version: 0.1.0
 Depends: R (>= 3.1.0)
