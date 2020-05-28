@@ -54,12 +54,12 @@ List of all available learners in this
     ##  [5] "mlr3learners.fnn"             "mlr3learners.gbm"            
     ##  [7] "mlr3learners.kerdiest"        "mlr3learners.kernlab"        
     ##  [9] "mlr3learners.liblinear"       "mlr3learners.locfit"         
-    ## [11] "mlr3learners.mboost"          "mlr3learners.np"             
-    ## [13] "mlr3learners.obliquersf"      "mlr3learners.partykit"       
-    ## [15] "mlr3learners.penalized"       "mlr3learners.pendensity"     
-    ## [17] "mlr3learners.randomforest"    "mlr3learners.randomforestsrc"
-    ## [19] "mlr3learners.rweka"           "mlr3learners.survival"       
-    ## [21] "mlr3learners.survivalsvm"
+    ## [11] "mlr3learners.mboost"          "mlr3learners.nnet"           
+    ## [13] "mlr3learners.np"              "mlr3learners.obliquersf"     
+    ## [15] "mlr3learners.partykit"        "mlr3learners.penalized"      
+    ## [17] "mlr3learners.pendensity"      "mlr3learners.randomforest"   
+    ## [19] "mlr3learners.randomforestsrc" "mlr3learners.rweka"          
+    ## [21] "mlr3learners.survival"        "mlr3learners.survivalsvm"
 
 ## How it works
 
