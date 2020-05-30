@@ -80,7 +80,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, kernlab, mlr3, mlr3misc, paradox, R6
 Suggests: bibtex, checkmate, testthat
 License: LGPL-3
-MD5sum: 1481447ea6d469e67d6bc333640e0c82
+MD5sum: ca235ca49069061dc743f4dbb894ccfc
 NeedsCompilation: no
 
 Package: mlr3learners.liblinear
