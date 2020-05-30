@@ -5,8 +5,7 @@
 the
 [mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat)
 project.  
-Install mlr3 learners from this repository
-using
+Install mlr3 learners from this repository using
 
 ``` r
 install.packages(..., repos = "https://mlr3learners.github.io/mlr3learners.drat")
@@ -46,8 +45,7 @@ install.packages("mlr3learners.kernlab")
 
 ## Available packages
 
-List of all available learners in this
-    organization
+List of all available learners in this organization
 
     ##  [1] "mlr3learners.c50"             "mlr3learners.coxboost"       
     ##  [3] "mlr3learners.extratrees"      "mlr3learners.flexsurv"       
@@ -63,10 +61,20 @@ List of all available learners in this
 
 ## How it works
 
-The package sources of the listed packages (including binaries for macOS
-and Windows) are build during a CI run (once a week) and automatically
-deployed to this repo. The work behind the scenes is highly simplified
-by packages [{tic}](https://github.com/ropensci/tic) and
+The package sources and binaries of the listed packages are build by the
+respective learner packages with the following logic:
+
+  - During a CI run when the version does not contain a devel indicator
+    (i.e. .9000)
+  - On the first of each month
+
+Binaries are build for the current R release and the previous release.
+Depending on the release date of a new major or minor R version it may
+take a while until the new binaries are available. The binaries are
+(re-)build on the first of each month.
+
+The work behind the scenes is highly simplified by packages
+[{tic}](https://github.com/ropensci/tic) and
 [{drat}](https://github.com/eddelbuettel/drat).
 
 ### How to add a mlr3learner to {mlr3learners.drat}
@@ -86,9 +94,10 @@ by packages [{tic}](https://github.com/ropensci/tic) and
 
 4.  Source `init_mlr3learner_drat_deploy()` from [this
     Gist](https://gist.github.com/pat-s/be7b0ebc6953726d5a51a171742c3e21)
-    and call the function with the name of the repo, e.g.
-    `init_mlr3learner_drat_deploy("mlr3learners.mboost")`. This will add
-    a private key as a “secret” to your repo and a public deploy key to
+    and call the function with the name of the repo,
+    e.g. `init_mlr3learner_drat_deploy("mlr3learners.mboost")`. This
+    will add a private key as a “secret” to your repo and a public
+    deploy key to
     [mlr3learners/mlr3learners.drat](https://github.com/mlr3learners/mlr3learners.drat),
     making it possible to deploy to the latter from your repo.
 

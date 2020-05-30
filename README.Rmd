@@ -48,7 +48,15 @@ setdiff(as.character(available.packages(repos = "https://mlr3learners.github.io/
 
 ## How it works
 
-The package sources of the listed packages (including binaries for macOS and Windows) are build during a CI run (once a week) and automatically deployed to this repo.
+The package sources and binaries of the listed packages are build by the respective learner packages with the following logic:
+
+- During a CI run when the version does not contain a devel indicator (i.e. .9000)
+- On the first of each month
+
+Binaries are build for the current R release and the previous release.
+Depending on the release date of a new major or minor R version it may take a while until the new binaries are available.
+The binaries are (re-)build on the first of each month.
+
 The work behind the scenes is highly simplified by packages [{tic}](https://github.com/ropensci/tic) and [{drat}](https://github.com/eddelbuettel/drat).
 
 ### How to add a mlr3learner to {mlr3learners.drat}
