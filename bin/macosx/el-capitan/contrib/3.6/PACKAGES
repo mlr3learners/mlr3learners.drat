@@ -97,7 +97,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, LiblineaR, paradox, R6
 Suggests: bibtex, checkmate, testthat
 License: LGPL-3
-MD5sum: e0999e310ee03ab740c153f6f7609109
+MD5sum: a67287ad7a2d7796e41f669e95519276
 
 Package: mlr3learners.logspline
 Version: 0.1.0
