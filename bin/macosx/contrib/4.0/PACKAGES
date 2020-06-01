@@ -117,6 +117,14 @@ Suggests: checkmate, distr6, pracma, randomForestSRC, rmarkdown,
 License: LGPL-3
 MD5sum: 91c337f36960cb33ed95b31c949cac5d
 
+Package: mlr3learners.rweka
+Version: 0.1.1
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
+Suggests: checkmate, rmarkdown, RWeka, testthat
+License: LGPL-3
+MD5sum: 2a89949864b2a6f4acc5148f80b50470
+
 Package: mlr3learners.survival
 Version: 0.1.0
 Depends: R (>= 3.1.0)
