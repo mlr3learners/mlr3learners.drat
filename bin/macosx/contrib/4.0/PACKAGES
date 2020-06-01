@@ -21,3 +21,11 @@ Imports: data.table, mlr3, mlr3misc, LiblineaR, paradox, R6
 Suggests: bibtex, checkmate, testthat
 License: LGPL-3
 MD5sum: 72d18aa7ac6ed816273dcecc2e2610ee
+
+Package: mlr3learners.nnet
+Version: 0.1.1
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
+Suggests: checkmate, nnet, rmarkdown, testthat
+License: LGPL-3
+MD5sum: a17b838e2cbe000849dad271da13b261
