@@ -160,6 +160,16 @@ Suggests: checkmate, distr6, plugdensity, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 0d37dee1cb699afad31bc09c9353ed25
 
+Package: mlr3learners.randomforestsrc
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6, survival
+Suggests: checkmate, distr6, pracma, randomForestSRC, rmarkdown,
+        testthat
+License: LGPL-3
+MD5sum: 0ff167c4f41d3597a796bb36c5337f94
+
 Package: mlr3learners.rweka
 Version: 0.1.0
 Depends: R (>= 3.1.0)
