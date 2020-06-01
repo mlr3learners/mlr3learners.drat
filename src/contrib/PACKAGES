@@ -112,12 +112,12 @@ MD5sum: 27753a6c30db2dfcd303f5ae7d3e1a38
 NeedsCompilation: no
 
 Package: mlr3learners.nnet
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: checkmate, nnet, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 613b9f251692e384b916b47bc04b1edd
+MD5sum: eb35a5e3468483a839f50260e2d5a487
 NeedsCompilation: no
 
 Package: mlr3learners.np
