@@ -108,7 +108,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6, mboost, withr
 Suggests: checkmate, bibtex, testthat
 License: LGPL-3
-MD5sum: 94dc921e0c41776cf37a59efd281d6bf
+MD5sum: 27753a6c30db2dfcd303f5ae7d3e1a38
 NeedsCompilation: no
 
 Package: mlr3learners.nnet
