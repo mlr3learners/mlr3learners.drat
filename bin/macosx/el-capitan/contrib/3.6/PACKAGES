@@ -190,8 +190,8 @@ MD5sum: 80f460405af957f6ff517e7d71a8f993
 Package: mlr3learners.survivalsvm
 Version: 0.1.0
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+Imports: data.table, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>= 0.1.5),
         paradox, R6, survival
 Suggests: checkmate, distr6, rmarkdown, survivalsvm, testthat
 License: LGPL-3
-MD5sum: fffacce946d9f67e7620949aa13fd782
+MD5sum: bf803e78b39d4c17b79ce458a5ad4789
