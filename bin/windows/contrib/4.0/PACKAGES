@@ -20,6 +20,13 @@ Imports: data.table, mlr3, mlr3misc, paradox, R6
 Suggests: checkmate, FNN, testthat
 License: LGPL-3
 
+Package: mlr3learners.gbm
+Version: 0.2.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3, mlr3misc, paradox, R6
+Suggests: checkmate, gbm, testthat
+License: LGPL-3
+
 Package: mlr3learners.gss
 Version: 0.1.0
 Depends: R (>= 3.1.0)
