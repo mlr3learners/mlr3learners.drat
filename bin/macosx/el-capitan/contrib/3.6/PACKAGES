@@ -35,11 +35,11 @@ MD5sum: f9c69e34d1d399e15f296e04fbb8ed09
 Package: mlr3learners.flexsurv
 Version: 0.1.0
 Depends: R (>= 3.1.0)
-Imports: data.table, distr6, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
+Imports: data.table, distr6, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>=
         0.1.5), paradox, R6, survival
 Suggests: checkmate, flexsurv, pracma, rmarkdown, set6, testthat
 License: LGPL-3
-MD5sum: 553469e7b3846cb2340ae1181344db27
+MD5sum: 6d55f2e007c250d6da43ae54cc87243a
 
 Package: mlr3learners.fnn
 Version: 0.2.0
