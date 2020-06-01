@@ -146,7 +146,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6
 Suggests: bibtex, checkmate, partykit, sandwich, testthat
 License: LGPL-3
-MD5sum: 498154be02f01cd7e2239f9e762358bb
+MD5sum: afc14e734e8bf0b766d9668bb6973819
 NeedsCompilation: no
 
 Package: mlr3learners.penalized
