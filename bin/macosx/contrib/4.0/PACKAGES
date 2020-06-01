@@ -15,6 +15,14 @@ Suggests: checkmate, flexsurv, pracma, rmarkdown, set6, testthat
 License: LGPL-3
 MD5sum: 33280e98b6a8826a13106f2127d5dee7
 
+Package: mlr3learners.fnn
+Version: 0.2.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3, mlr3misc, paradox, R6
+Suggests: checkmate, FNN, testthat
+License: LGPL-3
+MD5sum: 9e5a6b1d0c6bd3d1b004bfa9d764c3a3
+
 Package: mlr3learners.gbm
 Version: 0.2.0
 Depends: R (>= 3.1.0)
