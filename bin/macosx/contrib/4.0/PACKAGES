@@ -5,3 +5,11 @@ Imports: data.table, kernlab, mlr3, mlr3misc, paradox, R6
 Suggests: bibtex, checkmate, testthat
 License: LGPL-3
 MD5sum: 7f21ab558e2c844cbc32ddc4e9a90c60
+
+Package: mlr3learners.liblinear
+Version: 0.2.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3, mlr3misc, LiblineaR, paradox, R6
+Suggests: bibtex, checkmate, testthat
+License: LGPL-3
+MD5sum: 72d18aa7ac6ed816273dcecc2e2610ee
