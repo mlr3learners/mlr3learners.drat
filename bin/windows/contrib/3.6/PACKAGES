@@ -71,6 +71,13 @@ Imports: data.table, mlr3, mlr3misc, paradox, R6, mboost, withr
 Suggests: checkmate, bibtex, testthat
 License: LGPL-3
 
+Package: mlr3learners.nnet
+Version: 0.1.1
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
+Suggests: checkmate, nnet, rmarkdown, testthat
+License: LGPL-3
+
 Package: mlr3learners.partykit
 Version: 0.2.1
 Depends: R (>= 3.1.0)
