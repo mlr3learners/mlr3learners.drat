@@ -4,4 +4,4 @@ Depends: R (>= 3.1.0)
 Imports: data.table, kernlab, mlr3, mlr3misc, paradox, R6
 Suggests: bibtex, checkmate, testthat
 License: LGPL-3
-MD5sum: b077a93ae741ad8bfa3a13e5af776552
+MD5sum: 7f21ab558e2c844cbc32ddc4e9a90c60
