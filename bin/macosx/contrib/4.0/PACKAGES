@@ -38,6 +38,15 @@ Suggests: checkmate, nnet, rmarkdown, testthat
 License: LGPL-3
 MD5sum: a17b838e2cbe000849dad271da13b261
 
+Package: mlr3learners.pendensity
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6
+Suggests: checkmate, distr6, pendensity, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 4690cb2363cd2f814980d8969d84f4de
+
 Package: mlr3learners.randomforestsrc
 Version: 0.1.0
 Depends: R (>= 3.1.0)
