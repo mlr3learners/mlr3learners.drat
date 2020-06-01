@@ -111,11 +111,11 @@ MD5sum: 107d957e83dec47276568197ea9b21df
 Package: mlr3learners.logspline
 Version: 0.1.0
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
-        0.1.5.9000), paradox, R6
+Imports: data.table, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6
 Suggests: checkmate, distr6, logspline, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 26904d97ade5a6e7350aeea908120523
+MD5sum: 9d00b2cb3c2aa13b1884908c35b1b94e
 
 Package: mlr3learners.mboost
 Version: 0.3.0
