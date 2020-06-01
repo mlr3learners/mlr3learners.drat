@@ -60,6 +60,13 @@ Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
 Suggests: checkmate, distr6, logspline, rmarkdown, testthat
 License: LGPL-3
 
+Package: mlr3learners.mboost
+Version: 0.3.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3, mlr3misc, paradox, R6, mboost, withr
+Suggests: checkmate, bibtex, testthat
+License: LGPL-3
+
 Package: mlr3learners.nnet
 Version: 0.1.0
 Depends: R (>= 3.1.0)
