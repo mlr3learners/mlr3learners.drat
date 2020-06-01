@@ -60,11 +60,11 @@ MD5sum: 6a2f96665e6ce9cdd69757fe1fa1b6f4
 Package: mlr3learners.gss
 Version: 0.1.0
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+Imports: data.table, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>= 0.1.5),
         paradox, R6
 Suggests: checkmate, distr6, gss, rmarkdown, testthat
 License: LGPL-3
-MD5sum: f0a6ae94ea0fa0731564c2c04ab97287
+MD5sum: d20701bcfbb785a4dcae75c68873cfa5
 
 Package: mlr3learners.kernlab
 Version: 0.2.0
