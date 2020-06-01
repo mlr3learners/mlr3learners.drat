@@ -56,12 +56,12 @@ MD5sum: 6f73705e284cc078e4ab8d563faef695
 NeedsCompilation: no
 
 Package: mlr3learners.gbm
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6
 Suggests: checkmate, gbm, testthat
 License: LGPL-3
-MD5sum: 829221711f0d0b475656884c2ea8e45f
+MD5sum: 13e631484417caf0889f354a0f316615
 NeedsCompilation: no
 
 Package: mlr3learners.kerdiest
