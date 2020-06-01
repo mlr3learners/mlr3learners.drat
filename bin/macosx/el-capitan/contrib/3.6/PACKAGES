@@ -44,10 +44,10 @@ MD5sum: 553469e7b3846cb2340ae1181344db27
 Package: mlr3learners.fnn
 Version: 0.2.0
 Depends: R (>= 3.1.0)
-Imports: checkmate, data.table, FNN, mlr3, mlr3misc, paradox, R6
-Suggests: rmarkdown, testthat
+Imports: data.table, mlr3, mlr3misc, paradox, R6
+Suggests: checkmate, FNN, testthat
 License: LGPL-3
-MD5sum: 1aaad7263b59d1c6084ce7dceb4eaabe
+MD5sum: 291500364ca874d84325397084524106
 
 Package: mlr3learners.gbm
 Version: 0.2.0
