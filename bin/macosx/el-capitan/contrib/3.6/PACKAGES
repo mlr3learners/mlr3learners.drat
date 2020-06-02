@@ -55,7 +55,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6
 Suggests: checkmate, gbm, testthat
 License: LGPL-3
-MD5sum: 149defc8613adc00031f30406d8fcad2
+MD5sum: c7db4d2bcf8552f72fe7183046b1b66e
 
 Package: mlr3learners.gss
 Version: 0.1.0
