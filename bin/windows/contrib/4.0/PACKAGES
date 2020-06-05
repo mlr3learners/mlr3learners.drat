@@ -21,7 +21,7 @@ Suggests: checkmate, FNN, testthat
 License: LGPL-3
 
 Package: mlr3learners.gbm
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3, mlr3misc, paradox, R6
 Suggests: checkmate, gbm, testthat
