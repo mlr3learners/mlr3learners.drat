@@ -84,13 +84,13 @@ License: LGPL-3
 MD5sum: 5dfe6bec86024a0883debde14de4792c
 
 Package: mlr3learners.ks
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
-        0.1.5.9000), paradox, R6
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6
 Suggests: checkmate, distr6, ks, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 6f0c450442d19588a5a3cfa74e11b9ce
+MD5sum: f08b3236cd39002fa9c09c5f796af6fa
 
 Package: mlr3learners.ksvm
 Version: 0.1.1
