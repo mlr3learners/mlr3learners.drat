@@ -109,13 +109,13 @@ License: LGPL-3
 MD5sum: a67287ad7a2d7796e41f669e95519276
 
 Package: mlr3learners.locfit
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>= 0.1.5),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, locfit, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 107d957e83dec47276568197ea9b21df
+MD5sum: 39ad2ae988e6c1e2c672d2d4bfbd3f74
 
 Package: mlr3learners.logspline
 Version: 0.1.1
