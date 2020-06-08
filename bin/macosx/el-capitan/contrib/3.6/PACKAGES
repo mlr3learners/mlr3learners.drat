@@ -205,14 +205,14 @@ License: LGPL-3
 MD5sum: ebd2b540eebb13ed0b404a45440bd1a0
 
 Package: mlr3learners.randomforestsrc
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>= 0.1.5),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6, survival
 Suggests: checkmate, distr6, pracma, randomForestSRC, rmarkdown,
         testthat
 License: LGPL-3
-MD5sum: 0ff167c4f41d3597a796bb36c5337f94
+MD5sum: e833226f5e8ecbcfcef87df5ade4a57b
 
 Package: mlr3learners.rweka
 Version: 0.1.1
