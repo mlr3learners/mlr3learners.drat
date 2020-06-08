@@ -157,7 +157,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, np, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 15ae0e0fbb33813c050efc466ef4b39f
+MD5sum: 7206507ab93fbe4cc300b5866d7cb70c
 NeedsCompilation: no
 
 Package: mlr3learners.obliquersf
