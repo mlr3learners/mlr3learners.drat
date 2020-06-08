@@ -187,13 +187,13 @@ License: LGPL-3
 MD5sum: e3db644ec7c8504afcf23cd1ccc6ab1f
 
 Package: mlr3learners.plugdensity
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, plugdensity, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 0d37dee1cb699afad31bc09c9353ed25
+MD5sum: 9658514ba7bfd65d905e9b905ef9f5cd
 
 Package: mlr3learners.randomforest
 Version: 0.1.2
