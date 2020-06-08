@@ -223,13 +223,13 @@ License: LGPL-3
 MD5sum: 11d1f3ecaba8042e3e334ab5e75a19d3
 
 Package: mlr3learners.sm
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>= 0.1.5),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, rmarkdown, sm, testthat
 License: LGPL-3
-MD5sum: 548aae03eb4fe2d947a25b1cabef3bf8
+MD5sum: 71e65965b2826c6af89d17eb51d8f57c
 
 Package: mlr3learners.survival
 Version: 0.1.0
