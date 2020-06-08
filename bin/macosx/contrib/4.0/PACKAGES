@@ -197,3 +197,12 @@ Imports: data.table, distr6, mlr3 (>= 0.2.0), mlr3misc, mlr3proba (>=
 Suggests: checkmate, pracma, rmarkdown, set6, testthat
 License: LGPL-3
 MD5sum: b23c85624eebb05f1bc0f2ca8721c781
+
+Package: mlr3learners.survivalsvm
+Version: 0.1.1
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6, survival
+Suggests: checkmate, distr6, rmarkdown, survivalsvm, testthat
+License: LGPL-3
+MD5sum: 6e02a899bd3477056bd005df9d71b323
