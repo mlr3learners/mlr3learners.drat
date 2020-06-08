@@ -6,6 +6,16 @@ Suggests: checkmate, rmarkdown, testthat
 License: LGPL-3
 MD5sum: b3e198b4ac55330587e0ad4631c745dd
 
+Package: mlr3learners.coxboost
+Version: 0.1.1
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6, survival
+Suggests: bibtex, checkmate, CoxBoost, distr6, pracma, rmarkdown,
+        simsurv, testthat
+License: LGPL-3
+MD5sum: 52e69e7c3df989b399b6df3130eec213
+
 Package: mlr3learners.flexsurv
 Version: 0.1.0
 Depends: R (>= 3.1.0)
