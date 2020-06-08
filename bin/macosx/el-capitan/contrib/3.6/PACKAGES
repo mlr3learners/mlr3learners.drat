@@ -177,6 +177,15 @@ Suggests: checkmate, distr6, penalized, pracma, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 38efe4aeac7a29cec85164462d3a4f72
 
+Package: mlr3learners.pendensity
+Version: 0.1.1
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6
+Suggests: checkmate, distr6, pendensity, rmarkdown, testthat
+License: LGPL-3
+MD5sum: e3db644ec7c8504afcf23cd1ccc6ab1f
+
 Package: mlr3learners.plugdensity
 Version: 0.1.0
 Depends: R (>= 3.1.0)
