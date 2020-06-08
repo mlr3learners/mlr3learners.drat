@@ -14,7 +14,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
 Suggests: bibtex, checkmate, CoxBoost, distr6, pracma, rmarkdown,
         simsurv, testthat
 License: LGPL-3
-MD5sum: 5001a5a4e145061f5511f2e7d7b2a1b3
+MD5sum: 4f27efc120d53e486e3c0c93904e653a
 
 Package: mlr3learners.flexsurv
 Version: 0.1.0
