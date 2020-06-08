@@ -65,6 +65,15 @@ Suggests: bibtex, checkmate, testthat
 License: LGPL-3
 MD5sum: 72d18aa7ac6ed816273dcecc2e2610ee
 
+Package: mlr3learners.logspline
+Version: 0.1.1
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6
+Suggests: checkmate, distr6, logspline, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 87cd3b6bd3eb72544a657f8cc132ed3b
+
 Package: mlr3learners.mboost
 Version: 0.3.0
 Depends: R (>= 3.1.0)
