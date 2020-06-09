@@ -91,7 +91,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, locfit, rmarkdown, testthat
 License: LGPL-3
-MD5sum: c00b9624f41fca75371e6886ee4e40d1
+MD5sum: 060ccf7e5e4e427920581744dffadcff
 
 Package: mlr3learners.logspline
 Version: 0.1.1
