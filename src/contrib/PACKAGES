@@ -206,7 +206,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, plugdensity, rmarkdown, testthat
 License: LGPL-3
-MD5sum: eed8f627f0024c2d54a4b358c8993533
+MD5sum: 7ba87b4e8d6de9c1dd9066673633ecdc
 NeedsCompilation: no
 
 Package: mlr3learners.randomforest
