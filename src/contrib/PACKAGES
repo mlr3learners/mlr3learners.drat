@@ -161,13 +161,13 @@ MD5sum: b4417f7c5e0f3eb9583193d193843aa9
 NeedsCompilation: no
 
 Package: mlr3learners.obliquersf
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6, survival
 Suggests: checkmate, distr6, pracma, obliqueRSF, rmarkdown, testthat
 License: LGPL-3
-MD5sum: a47f4bfe38044dc0918125dc79daabda
+MD5sum: 49825d2537a5de3f9d20aa99fb67bd7b
 NeedsCompilation: no
 
 Package: mlr3learners.partykit
