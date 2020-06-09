@@ -23,7 +23,7 @@ Imports: data.table, distr6, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>=
         0.1.6), paradox, R6, survival
 Suggests: checkmate, flexsurv, pracma, rmarkdown, set6, testthat
 License: LGPL-3
-MD5sum: 8d02812bc780ca4239231d4eead9370e
+MD5sum: 94fc8ed4a038f88f1399ad05afc3bd2f
 
 Package: mlr3learners.fnn
 Version: 0.2.0
