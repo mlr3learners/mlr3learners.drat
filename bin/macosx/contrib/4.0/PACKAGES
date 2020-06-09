@@ -160,7 +160,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, plugdensity, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 0bf1b6b7fbfba5d23f8bdee52e423529
+MD5sum: 14026acb5825fef7cd48d8fc2faab2c4
 
 Package: mlr3learners.randomforest
 Version: 0.1.2
