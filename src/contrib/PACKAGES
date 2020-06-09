@@ -227,7 +227,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
 Suggests: checkmate, distr6, pracma, randomForestSRC, rmarkdown,
         testthat
 License: LGPL-3
-MD5sum: 09d605cdebb7fe4a459cae3d6b3da887
+MD5sum: 5d94b8f560a14260c6c0989819c323b4
 NeedsCompilation: no
 
 Package: mlr3learners.rweka
