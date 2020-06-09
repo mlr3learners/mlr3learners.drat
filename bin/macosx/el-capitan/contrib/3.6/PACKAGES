@@ -152,13 +152,13 @@ License: LGPL-3
 MD5sum: 92a61dda5132551fda1f43ccd138a158
 
 Package: mlr3learners.obliquersf
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6, survival
 Suggests: checkmate, distr6, pracma, obliqueRSF, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 159e5399600854369e5e244933beabed
+MD5sum: 4c741a51ec4a4cb6e0161a8ac37b4817
 
 Package: mlr3learners.partykit
 Version: 0.2.1
