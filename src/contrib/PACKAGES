@@ -266,5 +266,5 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6, survival
 Suggests: checkmate, distr6, rmarkdown, survivalsvm, testthat
 License: LGPL-3
-MD5sum: 827a5fee26a3257d6acc6886403e4a4e
+MD5sum: 0fc728258eb8c2db1fd044fbe123cf14
 NeedsCompilation: no
