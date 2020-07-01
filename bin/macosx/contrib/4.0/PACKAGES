@@ -134,7 +134,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6, survival
 Suggests: checkmate, distr6, pracma, obliqueRSF, rmarkdown, testthat
 License: LGPL-3
-MD5sum: f26a403f553603135934fd871de1f9c1
+MD5sum: 0e638e4fba18b75fbf8a9ed7e90eb244
 
 Package: mlr3learners.partykit
 Version: 0.2.1
