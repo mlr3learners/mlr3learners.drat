@@ -184,7 +184,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, pendensity, rmarkdown, testthat
 License: LGPL-3
-MD5sum: bce6333059c3b1cd375acd552c4b7766
+MD5sum: aaea269030260d402322d27943327dd5
 
 Package: mlr3learners.plugdensity
 Version: 0.1.1
