@@ -36,10 +36,11 @@ MD5sum: 9e5a6b1d0c6bd3d1b004bfa9d764c3a3
 Package: mlr3learners.gbm
 Version: 0.2.1
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3, mlr3misc, paradox, R6
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6, survival
 Suggests: checkmate, gbm, testthat
 License: LGPL-3
-MD5sum: 6b98784fcb7654cab608937fbebb0c06
+MD5sum: e0551439f055886d3abc12b5ceff7a68
 
 Package: mlr3learners.gss
 Version: 0.1.1
