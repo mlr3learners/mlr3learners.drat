@@ -72,7 +72,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, gss, rmarkdown, testthat
 License: LGPL-3
-MD5sum: f46563bee2ff4a5a8894a38d8ec7116f
+MD5sum: f00e6aa12cb84076dd8c0bf74a37a05c
 NeedsCompilation: no
 
 Package: mlr3learners.kerdiest
