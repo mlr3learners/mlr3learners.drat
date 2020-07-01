@@ -58,10 +58,11 @@ NeedsCompilation: no
 Package: mlr3learners.gbm
 Version: 0.2.1
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3, mlr3misc, paradox, R6
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6, survival
 Suggests: checkmate, gbm, testthat
 License: LGPL-3
-MD5sum: 0fb6f18d00f2e64470933e62ef3749ce
+MD5sum: e98cc28f318f318a3d36c7d80e3b2766
 NeedsCompilation: no
 
 Package: mlr3learners.gss
