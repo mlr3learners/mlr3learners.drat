@@ -13,6 +13,15 @@ Suggests: checkmate, rmarkdown, testthat
 License: LGPL-3
 
 Package: mlr3learners.coxboost
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6, survival
+Suggests: bibtex, checkmate, CoxBoost, distr6, pracma, rmarkdown,
+        simsurv, testthat
+License: LGPL-3
+
+Package: mlr3learners.coxboost
 Version: 0.1.1
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -26,6 +35,14 @@ Version: 0.2.0
 Depends: R (>= 3.1.0)
 Imports: checkmate, data.table, extraTrees, mlr3, mlr3misc, paradox, R6
 Suggests: rmarkdown, testthat
+License: LGPL-3
+
+Package: mlr3learners.flexsurv
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, distr6, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
+        0.1.5), paradox, R6, survival
+Suggests: checkmate, flexsurv, pracma, rmarkdown, set6, testthat
 License: LGPL-3
 
 Package: mlr3learners.flexsurv
@@ -143,6 +160,14 @@ Suggests: bibtex, checkmate, partykit, sandwich, testthat
 License: LGPL-3
 
 Package: mlr3learners.penalized
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6, survival
+Suggests: checkmate, distr6, penalized, pracma, rmarkdown, testthat
+License: LGPL-3
+
+Package: mlr3learners.penalized
 Version: 0.1.1
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -165,6 +190,17 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6, plugdensity, rmarkdown, testthat
 License: LGPL-3
+
+Package: mlr3learners.proba
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>=
+        0.1.6.9000), paradox, R6, Rcpp (>= 1.0.4), survival
+LinkingTo: Rcpp
+Suggests: checkmate, distr6 (>= 1.3.7.9000), pracma, rmarkdown,
+        testthat
+License: LGPL-3
+Archs: i386, x64
 
 Package: mlr3learners.randomforestsrc
 Version: 0.1.1
@@ -191,11 +227,27 @@ Suggests: checkmate, distr6, rmarkdown, sm, testthat
 License: LGPL-3
 
 Package: mlr3learners.survival
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, distr6, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>=
+        0.1.4.9000), paradox, R6, survival
+Suggests: checkmate, pracma, rmarkdown, set6, testthat
+License: LGPL-3
+
+Package: mlr3learners.survival
 Version: 0.1.1
 Depends: R (>= 3.1.0)
 Imports: data.table, distr6, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>=
         0.1.6), paradox, R6, survival
 Suggests: checkmate, pracma, rmarkdown, set6, testthat
+License: LGPL-3
+
+Package: mlr3learners.survivalsvm
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, mlr3proba (>= 0.1.5),
+        paradox, R6, survival
+Suggests: checkmate, distr6, rmarkdown, survivalsvm, testthat
 License: LGPL-3
 
 Package: mlr3learners.survivalsvm
