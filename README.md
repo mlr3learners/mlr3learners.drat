@@ -57,10 +57,10 @@ List of all available learners in this organization
     ## [15] "mlr3learners.nnet"            "mlr3learners.np"             
     ## [17] "mlr3learners.obliquersf"      "mlr3learners.partykit"       
     ## [19] "mlr3learners.penalized"       "mlr3learners.pendensity"     
-    ## [21] "mlr3learners.plugdensity"     "mlr3learners.randomforest"   
-    ## [23] "mlr3learners.randomforestsrc" "mlr3learners.rweka"          
-    ## [25] "mlr3learners.sm"              "mlr3learners.survival"       
-    ## [27] "mlr3learners.survivalsvm"
+    ## [21] "mlr3learners.plugdensity"     "mlr3learners.proba"          
+    ## [23] "mlr3learners.randomforest"    "mlr3learners.randomforestsrc"
+    ## [25] "mlr3learners.rweka"           "mlr3learners.sm"             
+    ## [27] "mlr3learners.survival"        "mlr3learners.survivalsvm"
 
 ## How it works
 
