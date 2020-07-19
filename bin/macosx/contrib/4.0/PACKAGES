@@ -178,10 +178,9 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>=
         0.1.6.9000), paradox, R6, Rcpp (>= 1.0.4), survival
 LinkingTo: Rcpp
-Suggests: checkmate, distr6 (>= 1.3.7.9000), pracma, rmarkdown,
-        testthat
+Suggests: checkmate, distr6 (>= 1.4.0), pracma, rmarkdown, testthat
 License: LGPL-3
-MD5sum: ef5d43f65fa5fa6018e8f686c9741fc2
+MD5sum: 0cfff208bed2ec850036a8e09740f87b
 
 Package: mlr3learners.randomforest
 Version: 0.1.2
