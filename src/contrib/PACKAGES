@@ -209,7 +209,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
 Suggests: checkmate, distr6 (>= 1.4.2), pracma, obliqueRSF, rmarkdown,
         testthat
 License: LGPL-3
-MD5sum: 5b09785a388b70b6c29845b52f2e6005
+MD5sum: 6e0b16995f403d7f1894c7b85d7066f2
 NeedsCompilation: no
 
 Package: mlr3learners.partykit
