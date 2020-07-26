@@ -172,6 +172,15 @@ Suggests: checkmate, distr6, locfit, rmarkdown, testthat
 License: LGPL-3
 MD5sum: e8790f236480f8e4c12c05d6e61cc265
 
+Package: mlr3learners.locfit
+Version: 0.1.2
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6
+Suggests: checkmate, distr6 (>= 1.4.2), locfit, rmarkdown, testthat
+License: LGPL-3
+MD5sum: cbffd7281e69a7446fadcd5cfdf2a4e1
+
 Package: mlr3learners.logspline
 Version: 0.1.0
 Depends: R (>= 3.1.0)
