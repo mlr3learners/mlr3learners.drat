@@ -155,6 +155,15 @@ Suggests: checkmate, distr6, np, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 5610a72fb4cdf9269c29bc0abfc92aa6
 
+Package: mlr3learners.np
+Version: 0.1.2
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6
+Suggests: checkmate, distr6 (>= 1.4.2), np, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 1c7db6f07f82727157ec31fdb08418ae
+
 Package: mlr3learners.obliquersf
 Version: 0.1.1
 Depends: R (>= 3.1.0)
