@@ -85,6 +85,16 @@ License: LGPL-3
 MD5sum: f974ca63c261479e0d3b0a0c732a871c
 NeedsCompilation: no
 
+Package: mlr3learners.kerdiest
+Version: 0.1.2
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+        paradox, R6
+Suggests: checkmate, distr6 (>= 1.4.2), kerdiest, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 8cc173dd6ca9ee7ea4e800f0a65f3437
+NeedsCompilation: no
+
 Package: mlr3learners.kernlab
 Version: 0.2.0
 Depends: R (>= 3.1.0)
