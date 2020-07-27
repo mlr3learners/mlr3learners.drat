@@ -150,11 +150,11 @@ MD5sum: 3154e91663392b39e95ffe21f500bbc0
 Package: mlr3learners.ks
 Version: 0.1.2
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), ks, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 7454c00c725de1db8627b605616fae19
+MD5sum: ac2ec721c8a6fdc7372fc41b2ae869a9
 
 Package: mlr3learners.ksvm
 Version: 0.1.1
