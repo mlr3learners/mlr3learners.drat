@@ -119,7 +119,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), kerdiest, rmarkdown, testthat
 License: LGPL-3
-MD5sum: d11a51933aba2eb9528af15a59d09069
+MD5sum: eafcb9e778287df3f52e8998f210e011
 
 Package: mlr3learners.kernlab
 Version: 0.2.0
