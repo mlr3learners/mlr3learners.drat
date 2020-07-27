@@ -140,7 +140,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), logspline, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 9c234569bd3c26e27ede44d1bbaaf02b
+MD5sum: feb67a1120c763b46f2af70a4f5225cf
 NeedsCompilation: no
 
 Package: mlr3learners.mboost
