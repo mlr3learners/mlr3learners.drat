@@ -209,7 +209,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
 Suggests: checkmate, distr6 (>= 1.4.2), plugdensity, rmarkdown,
         testthat
 License: LGPL-3
-MD5sum: db4bb2599e60494940ea8176e47944d4
+MD5sum: 75a640450eb1bf9850e3f630e168ef6b
 NeedsCompilation: no
 
 Package: mlr3learners.proba
