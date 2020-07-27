@@ -326,11 +326,11 @@ MD5sum: aaea269030260d402322d27943327dd5
 Package: mlr3learners.pendensity
 Version: 0.1.2
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), pendensity, rmarkdown, testthat
 License: LGPL-3
-MD5sum: cc19d25df7e56cc4291af3666961cce1
+MD5sum: 833c3b9823bebd80c7a8500ceba09cb5
 
 Package: mlr3learners.plugdensity
 Version: 0.1.0
