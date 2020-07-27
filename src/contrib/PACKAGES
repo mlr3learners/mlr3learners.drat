@@ -257,11 +257,11 @@ NeedsCompilation: no
 Package: mlr3learners.sm
 Version: 0.1.2
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), rmarkdown, sm, testthat
 License: LGPL-3
-MD5sum: 56f7c53f169fac246920515c9382f12f
+MD5sum: f97e7ad5790f20178d8af3385d1cf9c0
 NeedsCompilation: no
 
 Package: mlr3learners.survival
