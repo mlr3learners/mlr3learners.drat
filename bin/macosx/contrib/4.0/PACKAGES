@@ -52,15 +52,6 @@ License: LGPL-3
 MD5sum: b66d67a51898ac9f99e71b235c7bac99
 
 Package: mlr3learners.kerdiest
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, kerdiest, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 719aa32cba91c767d25138d55f25eb31
-
-Package: mlr3learners.kerdiest
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -78,15 +69,6 @@ License: LGPL-3
 MD5sum: 90e5c1faffe57fbc6571c766fcfad9e6
 
 Package: mlr3learners.ks
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, ks, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 77b4f6e8a4a551c13ac8343d477cf255
-
-Package: mlr3learners.ks
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -102,15 +84,6 @@ Imports: data.table, mlr3, mlr3misc, LiblineaR, paradox, R6
 Suggests: bibtex, checkmate, testthat
 License: LGPL-3
 MD5sum: 72d18aa7ac6ed816273dcecc2e2610ee
-
-Package: mlr3learners.locfit
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, locfit, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 060ccf7e5e4e427920581744dffadcff
 
 Package: mlr3learners.locfit
 Version: 0.1.2
@@ -147,15 +120,6 @@ License: LGPL-3
 MD5sum: a17b838e2cbe000849dad271da13b261
 
 Package: mlr3learners.np
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, np, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 5610a72fb4cdf9269c29bc0abfc92aa6
-
-Package: mlr3learners.np
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -163,15 +127,6 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
 Suggests: checkmate, distr6 (>= 1.4.2), np, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 1c7db6f07f82727157ec31fdb08418ae
-
-Package: mlr3learners.obliquersf
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6, survival
-Suggests: checkmate, distr6, pracma, obliqueRSF, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 0e638e4fba18b75fbf8a9ed7e90eb244
 
 Package: mlr3learners.obliquersf
 Version: 0.1.2
@@ -201,15 +156,6 @@ License: LGPL-3
 MD5sum: 03bd9f73c1e375436a74cd6a8796529e
 
 Package: mlr3learners.pendensity
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, pendensity, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 4db1ae3cb9ce4f19e2dd9486f73bdc4f
-
-Package: mlr3learners.pendensity
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -217,15 +163,6 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
 Suggests: checkmate, distr6 (>= 1.4.2), pendensity, rmarkdown, testthat
 License: LGPL-3
 MD5sum: f60c4288a6704b3b37c7525c8d50dc83
-
-Package: mlr3learners.plugdensity
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, plugdensity, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 14026acb5825fef7cd48d8fc2faab2c4
 
 Package: mlr3learners.plugdensity
 Version: 0.1.2
@@ -273,15 +210,6 @@ Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: checkmate, rmarkdown, RWeka, testthat
 License: LGPL-3
 MD5sum: 3c509d5140368d4971bbf803657207db
-
-Package: mlr3learners.sm
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, rmarkdown, sm, testthat
-License: LGPL-3
-MD5sum: 0e14c20168ddfb62794de10fa7684612
 
 Package: mlr3learners.sm
 Version: 0.1.2

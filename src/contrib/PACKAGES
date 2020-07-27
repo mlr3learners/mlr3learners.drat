@@ -76,16 +76,6 @@ MD5sum: f00e6aa12cb84076dd8c0bf74a37a05c
 NeedsCompilation: no
 
 Package: mlr3learners.kerdiest
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, kerdiest, rmarkdown, testthat
-License: LGPL-3
-MD5sum: f974ca63c261479e0d3b0a0c732a871c
-NeedsCompilation: no
-
-Package: mlr3learners.kerdiest
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -105,16 +95,6 @@ MD5sum: d96094430b25893db1b5ff1f897d92c4
 NeedsCompilation: no
 
 Package: mlr3learners.ks
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, ks, rmarkdown, testthat
-License: LGPL-3
-MD5sum: fb6b92b4f2f11d451607e97b0c7dd7c0
-NeedsCompilation: no
-
-Package: mlr3learners.ks
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -131,16 +111,6 @@ Imports: data.table, mlr3, mlr3misc, LiblineaR, paradox, R6
 Suggests: bibtex, checkmate, testthat
 License: LGPL-3
 MD5sum: e1639e97dc71c66e580e350c2903558b
-NeedsCompilation: no
-
-Package: mlr3learners.locfit
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, locfit, rmarkdown, testthat
-License: LGPL-3
-MD5sum: eaf21bc9578947b90b3b7cb52d2d9f30
 NeedsCompilation: no
 
 Package: mlr3learners.locfit
@@ -182,16 +152,6 @@ MD5sum: a6110f45d240e36f69e373d676feebfe
 NeedsCompilation: no
 
 Package: mlr3learners.np
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, np, rmarkdown, testthat
-License: LGPL-3
-MD5sum: b4417f7c5e0f3eb9583193d193843aa9
-NeedsCompilation: no
-
-Package: mlr3learners.np
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -199,16 +159,6 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
 Suggests: checkmate, distr6 (>= 1.4.2), np, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 381d210ce79075640c1e53e4fa5c2b3c
-NeedsCompilation: no
-
-Package: mlr3learners.obliquersf
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6, survival
-Suggests: checkmate, distr6, pracma, obliqueRSF, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 8128341c5dd130629c9a48b7c31eb8a0
 NeedsCompilation: no
 
 Package: mlr3learners.obliquersf
@@ -242,16 +192,6 @@ MD5sum: e4391d736d0db5fcd1e4b201fae26755
 NeedsCompilation: no
 
 Package: mlr3learners.pendensity
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, pendensity, rmarkdown, testthat
-License: LGPL-3
-MD5sum: cf850cb6022e586cd4e4d2fdd09e4d0d
-NeedsCompilation: no
-
-Package: mlr3learners.pendensity
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -259,16 +199,6 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
 Suggests: checkmate, distr6 (>= 1.4.2), pendensity, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 12a14ac352556fb25494e143fdbfec80
-NeedsCompilation: no
-
-Package: mlr3learners.plugdensity
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, plugdensity, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 46e1fc54acd55e3042184980c9b731f0
 NeedsCompilation: no
 
 Package: mlr3learners.plugdensity
@@ -322,16 +252,6 @@ Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: checkmate, rmarkdown, RWeka, testthat
 License: LGPL-3
 MD5sum: d9db9ca48016b8c401c0b61440a85527
-NeedsCompilation: no
-
-Package: mlr3learners.sm
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, rmarkdown, sm, testthat
-License: LGPL-3
-MD5sum: 158341528cfb484249424cc9c2b08c33
 NeedsCompilation: no
 
 Package: mlr3learners.sm

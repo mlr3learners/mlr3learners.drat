@@ -46,14 +46,6 @@ Suggests: checkmate, distr6, gss, rmarkdown, testthat
 License: LGPL-3
 
 Package: mlr3learners.kerdiest
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, kerdiest, rmarkdown, testthat
-License: LGPL-3
-
-Package: mlr3learners.kerdiest
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
@@ -69,27 +61,11 @@ Suggests: bibtex, checkmate, testthat
 License: LGPL-3
 
 Package: mlr3learners.ks
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, ks, rmarkdown, testthat
-License: LGPL-3
-
-Package: mlr3learners.ks
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), ks, rmarkdown, testthat
-License: LGPL-3
-
-Package: mlr3learners.locfit
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, locfit, rmarkdown, testthat
 License: LGPL-3
 
 Package: mlr3learners.locfit
@@ -123,27 +99,11 @@ Suggests: checkmate, nnet, rmarkdown, testthat
 License: LGPL-3
 
 Package: mlr3learners.np
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, np, rmarkdown, testthat
-License: LGPL-3
-
-Package: mlr3learners.np
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), np, rmarkdown, testthat
-License: LGPL-3
-
-Package: mlr3learners.obliquersf
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6, survival
-Suggests: checkmate, distr6, pracma, obliqueRSF, rmarkdown, testthat
 License: LGPL-3
 
 Package: mlr3learners.obliquersf
@@ -171,27 +131,11 @@ Suggests: checkmate, distr6, penalized, pracma, rmarkdown, testthat
 License: LGPL-3
 
 Package: mlr3learners.pendensity
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, pendensity, rmarkdown, testthat
-License: LGPL-3
-
-Package: mlr3learners.pendensity
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), pendensity, rmarkdown, testthat
-License: LGPL-3
-
-Package: mlr3learners.plugdensity
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, plugdensity, rmarkdown, testthat
 License: LGPL-3
 
 Package: mlr3learners.plugdensity
@@ -236,14 +180,6 @@ Version: 0.1.1
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: checkmate, rmarkdown, RWeka, testthat
-License: LGPL-3
-
-Package: mlr3learners.sm
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, rmarkdown, sm, testthat
 License: LGPL-3
 
 Package: mlr3learners.sm
