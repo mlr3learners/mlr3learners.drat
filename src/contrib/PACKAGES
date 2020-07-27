@@ -133,6 +133,16 @@ License: LGPL-3
 MD5sum: 34e4b69b564fab5d4112cc30b5e4e2bd
 NeedsCompilation: no
 
+Package: mlr3learners.logspline
+Version: 0.1.2
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
+        paradox, R6
+Suggests: checkmate, distr6 (>= 1.4.2), logspline, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 67fd4ccb112cccc0ea6679381727a1bc
+NeedsCompilation: no
+
 Package: mlr3learners.mboost
 Version: 0.3.0
 Depends: R (>= 3.1.0)
