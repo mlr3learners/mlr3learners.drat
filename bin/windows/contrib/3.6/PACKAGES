@@ -133,7 +133,7 @@ License: LGPL-3
 Package: mlr3learners.locfit
 Version: 0.1.2
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), locfit, rmarkdown, testthat
 License: LGPL-3
