@@ -75,6 +75,16 @@ License: LGPL-3
 MD5sum: f00e6aa12cb84076dd8c0bf74a37a05c
 NeedsCompilation: no
 
+Package: mlr3learners.gss
+Version: 0.1.2
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
+        paradox, R6
+Suggests: checkmate, distr6 (>= 1.4.2), gss, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 40742a7a33f3b9038d0d33ff22a79e7a
+NeedsCompilation: no
+
 Package: mlr3learners.kerdiest
 Version: 0.1.2
 Depends: R (>= 3.1.0)
