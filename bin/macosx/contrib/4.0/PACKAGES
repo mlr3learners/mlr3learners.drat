@@ -246,4 +246,4 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
 Suggests: checkmate, distr6 (>= 1.4.2), rmarkdown, survivalsvm,
         testthat
 License: LGPL-3
-MD5sum: a9b872ee8bbe3b25ab082e4c4b3782cd
+MD5sum: 41d98a75857e886c141ee87d1ca334af
