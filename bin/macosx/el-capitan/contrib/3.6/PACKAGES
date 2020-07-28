@@ -101,7 +101,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), gss, rmarkdown, testthat
 License: LGPL-3
-MD5sum: f9d71d039bccc5f195176d25bb5f04bb
+MD5sum: 9cf081dba254f226535d0dd40d3f67c6
 
 Package: mlr3learners.kerdiest
 Version: 0.1.0
