@@ -66,16 +66,6 @@ MD5sum: e98cc28f318f318a3d36c7d80e3b2766
 NeedsCompilation: no
 
 Package: mlr3learners.gss
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, gss, rmarkdown, testthat
-License: LGPL-3
-MD5sum: f00e6aa12cb84076dd8c0bf74a37a05c
-NeedsCompilation: no
-
-Package: mlr3learners.gss
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
@@ -131,16 +121,6 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
 Suggests: checkmate, distr6 (>= 1.4.2), locfit, rmarkdown, testthat
 License: LGPL-3
 MD5sum: 6a48ded14f46dd34c2982e0a77100157
-NeedsCompilation: no
-
-Package: mlr3learners.logspline
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6
-Suggests: checkmate, distr6, logspline, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 34e4b69b564fab5d4112cc30b5e4e2bd
 NeedsCompilation: no
 
 Package: mlr3learners.logspline
@@ -252,17 +232,6 @@ Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6,
 Suggests: checkmate, testthat
 License: LGPL-3
 MD5sum: 176981f7f8e2f82f32f463f607ea35e3
-NeedsCompilation: no
-
-Package: mlr3learners.randomforestsrc
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6, survival
-Suggests: checkmate, distr6, pracma, randomForestSRC, rmarkdown,
-        testthat
-License: LGPL-3
-MD5sum: 5d94b8f560a14260c6c0989819c323b4
 NeedsCompilation: no
 
 Package: mlr3learners.randomforestsrc
