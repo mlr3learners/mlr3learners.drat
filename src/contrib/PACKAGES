@@ -189,7 +189,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
 Suggests: checkmate, distr6 (>= 1.4.2), penalized, pracma, rmarkdown,
         testthat
 License: LGPL-3
-MD5sum: 39bc9f34ad7e3c7f1e598c5df0ed75bb
+MD5sum: 3b3e51c303bc1976fbf3f5bf3a736ef0
 NeedsCompilation: no
 
 Package: mlr3learners.pendensity
