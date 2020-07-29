@@ -147,15 +147,6 @@ License: LGPL-3
 MD5sum: 7906a47860d411d7941d33de427888ab
 
 Package: mlr3learners.penalized
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6, survival
-Suggests: checkmate, distr6, penalized, pracma, rmarkdown, testthat
-License: LGPL-3
-MD5sum: 03bd9f73c1e375436a74cd6a8796529e
-
-Package: mlr3learners.penalized
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
@@ -238,15 +229,6 @@ Imports: data.table, distr6, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>=
 Suggests: checkmate, pracma, rmarkdown, set6, testthat
 License: LGPL-3
 MD5sum: 696d6a1b02182c16ea62f0333f1944be
-
-Package: mlr3learners.survivalsvm
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6, survival
-Suggests: checkmate, distr6, rmarkdown, survivalsvm, testthat
-License: LGPL-3
-MD5sum: 3314ed0b8fe4d1595d2c4c860ca67dc7
 
 Package: mlr3learners.survivalsvm
 Version: 0.1.2
