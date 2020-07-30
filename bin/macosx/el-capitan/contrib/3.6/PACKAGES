@@ -42,7 +42,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
 Suggests: bibtex, checkmate, CoxBoost, distr6 (>= 1.4.2), pracma,
         rmarkdown, simsurv, testthat
 License: LGPL-3
-MD5sum: 4d7ed17e1e5626252b9f871a447ea4e9
+MD5sum: cbac21aabdb8046e1aa08d8c4a374710
 
 Package: mlr3learners.extratrees
 Version: 0.2.0
