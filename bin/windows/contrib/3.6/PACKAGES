@@ -12,6 +12,13 @@ Imports: C50, data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: checkmate, rmarkdown, testthat
 License: LGPL-3
 
+Package: mlr3learners.catboost
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: checkmate, data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
+Suggests: bibtex, catboost, rmarkdown, testthat
+License: LGPL-3
+
 Package: mlr3learners.coxboost
 Version: 0.1.0
 Depends: R (>= 3.1.0)
