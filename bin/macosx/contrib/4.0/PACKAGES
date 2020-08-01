@@ -48,7 +48,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
         paradox, R6, survival
 Suggests: checkmate, gbm, testthat
 License: LGPL-3
-MD5sum: e0551439f055886d3abc12b5ceff7a68
+MD5sum: 1cdfdef9fbab86aa174b6838e7bfe9be
 
 Package: mlr3learners.gss
 Version: 0.1.2
