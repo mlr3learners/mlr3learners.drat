@@ -26,17 +26,6 @@ MD5sum: 9894e819316b42c9af284ec16962c60f
 NeedsCompilation: no
 
 Package: mlr3learners.coxboost
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6, survival
-Suggests: bibtex, checkmate, CoxBoost, distr6, pracma, rmarkdown,
-        simsurv, testthat
-License: LGPL-3
-MD5sum: e8b0230b25b21090edd8b5c9dca34923
-NeedsCompilation: no
-
-Package: mlr3learners.coxboost
 Version: 0.1.2
 Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
@@ -282,16 +271,6 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
 Suggests: checkmate, distr6 (>= 1.4.2), rmarkdown, sm, testthat
 License: LGPL-3
 MD5sum: 16fa670934e6b80df45c041d07061e42
-NeedsCompilation: no
-
-Package: mlr3learners.survival
-Version: 0.1.1
-Depends: R (>= 3.1.0)
-Imports: data.table, distr6, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>=
-        0.1.6), paradox, R6, survival
-Suggests: checkmate, pracma, rmarkdown, set6, testthat
-License: LGPL-3
-MD5sum: c65ade77657cdeb17a7f5e1021d907b2
 NeedsCompilation: no
 
 Package: mlr3learners.survival

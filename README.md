@@ -47,20 +47,21 @@ install.packages("mlr3learners.kernlab")
 
 List of all available learners in this organization
 
-    ##  [1] "mlr3learners.c50"             "mlr3learners.coxboost"       
-    ##  [3] "mlr3learners.extratrees"      "mlr3learners.flexsurv"       
-    ##  [5] "mlr3learners.fnn"             "mlr3learners.gbm"            
-    ##  [7] "mlr3learners.gss"             "mlr3learners.kerdiest"       
-    ##  [9] "mlr3learners.kernlab"         "mlr3learners.ks"             
-    ## [11] "mlr3learners.liblinear"       "mlr3learners.locfit"         
-    ## [13] "mlr3learners.logspline"       "mlr3learners.mboost"         
-    ## [15] "mlr3learners.nnet"            "mlr3learners.np"             
-    ## [17] "mlr3learners.obliquersf"      "mlr3learners.partykit"       
-    ## [19] "mlr3learners.penalized"       "mlr3learners.pendensity"     
-    ## [21] "mlr3learners.plugdensity"     "mlr3learners.proba"          
-    ## [23] "mlr3learners.randomforest"    "mlr3learners.randomforestsrc"
-    ## [25] "mlr3learners.rweka"           "mlr3learners.sm"             
-    ## [27] "mlr3learners.survival"        "mlr3learners.survivalsvm"
+    ##  [1] "mlr3learners.c50"             "mlr3learners.catboost"       
+    ##  [3] "mlr3learners.coxboost"        "mlr3learners.extratrees"     
+    ##  [5] "mlr3learners.flexsurv"        "mlr3learners.fnn"            
+    ##  [7] "mlr3learners.gbm"             "mlr3learners.gss"            
+    ##  [9] "mlr3learners.kerdiest"        "mlr3learners.kernlab"        
+    ## [11] "mlr3learners.ks"              "mlr3learners.liblinear"      
+    ## [13] "mlr3learners.locfit"          "mlr3learners.logspline"      
+    ## [15] "mlr3learners.mboost"          "mlr3learners.nnet"           
+    ## [17] "mlr3learners.np"              "mlr3learners.obliquersf"     
+    ## [19] "mlr3learners.partykit"        "mlr3learners.penalized"      
+    ## [21] "mlr3learners.pendensity"      "mlr3learners.plugdensity"    
+    ## [23] "mlr3learners.proba"           "mlr3learners.randomforest"   
+    ## [25] "mlr3learners.randomforestsrc" "mlr3learners.rweka"          
+    ## [27] "mlr3learners.sm"              "mlr3learners.survival"       
+    ## [29] "mlr3learners.survivalsvm"
 
 ## How it works
 
