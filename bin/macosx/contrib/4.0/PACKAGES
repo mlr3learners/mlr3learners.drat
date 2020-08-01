@@ -117,7 +117,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: checkmate, nnet, rmarkdown, testthat
 License: LGPL-3
-MD5sum: a17b838e2cbe000849dad271da13b261
+MD5sum: 8334aeede798f6ed5798dd8acca3b012
 
 Package: mlr3learners.np
 Version: 0.1.2
