@@ -504,11 +504,11 @@ MD5sum: 4b3bcc774d381c2894fad809d3f84bc9
 Package: mlr3learners.survival
 Version: 0.1.2
 Depends: R (>= 3.1.0)
-Imports: data.table, distr6 (>= 1.4.2), mlr3 (>= 0.3.0), mlr3misc,
-        mlr3proba (>= 0.2.0), paradox, R6, survival
+Imports: data.table, distr6 (>= 1.4.2.9000), mlr3 (>= 0.4.0-9000),
+        mlr3misc, mlr3proba (>= 0.2.0.9000), paradox, R6, survival
 Suggests: actuar, checkmate, pracma, rmarkdown, set6, testthat
 License: LGPL-3
-MD5sum: a8774eb7a12cb71453e0b5df04fed153
+MD5sum: b9564312be1e70871378a6659569d382
 
 Package: mlr3learners.survivalsvm
 Version: 0.1.0
