@@ -33,6 +33,15 @@ Suggests: checkmate, flexsurv, pracma, rmarkdown, set6, testthat
 License: LGPL-3
 MD5sum: 92e8e658e70389b7bbd1e17bf31715c5
 
+Package: mlr3learners.flexsurv
+Version: 0.1.2
+Depends: R (>= 3.1.0)
+Imports: data.table, distr6 (>= 1.4.2), mlr3 (>= 0.3.0), mlr3misc,
+        mlr3proba (>= 0.2.0), paradox, R6, survival
+Suggests: checkmate, flexsurv, pracma, rmarkdown, set6, testthat
+License: LGPL-3
+MD5sum: 7e6102da968bb2371980701e820731ee
+
 Package: mlr3learners.fnn
 Version: 0.2.0
 Depends: R (>= 3.1.0)
