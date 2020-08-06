@@ -242,7 +242,7 @@ LinkingTo: Rcpp
 Suggests: checkmate, distr6 (>= 1.4.2), pracma, pseudo, rmarkdown,
         testthat
 License: LGPL-3
-MD5sum: e4baca5c82bab58d1f9553559af380ad
+MD5sum: be507ae9668a614f7773a012cd4b67b9
 NeedsCompilation: yes
 
 Package: mlr3learners.randomforest
