@@ -195,6 +195,15 @@ Suggests: checkmate, distr6 (>= 1.4.2), pracma, pseudo, rmarkdown,
 License: LGPL-3
 MD5sum: 41bebb5c9188e62ee79c50b9e6f19ee4
 
+Package: mlr3learners.pycox
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.4.0-9000), mlr3misc, mlr3proba (>=
+        0.2.0.9000), paradox, reticulate, R6
+Suggests: checkmate, distr6, pracma, rmarkdown, simsurv, testthat
+License: LGPL-3
+MD5sum: d5c626ebcb033ba06be179c417f05fb9
+
 Package: mlr3learners.randomforest
 Version: 0.1.2
 Depends: R (>= 3.1.0)
