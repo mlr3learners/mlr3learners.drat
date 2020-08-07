@@ -235,6 +235,16 @@ License: LGPL-3
 MD5sum: f73fb02ddbe5551481dfda777d5d9b0e
 NeedsCompilation: yes
 
+Package: mlr3learners.pycox
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.4.0-9000), mlr3misc, mlr3proba (>=
+        0.2.0.9000), paradox, reticulate, R6
+Suggests: checkmate, distr6, pracma, rmarkdown, simsurv, testthat
+License: LGPL-3
+MD5sum: e49755bb2b5696db4ec15b5d379e9a42
+NeedsCompilation: no
+
 Package: mlr3learners.randomforest
 Version: 0.1.2
 Depends: R (>= 3.1.0)
