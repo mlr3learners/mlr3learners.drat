@@ -202,7 +202,7 @@ Imports: data.table, mlr3 (>= 0.5.0), mlr3misc, mlr3proba (>=
         0.2.0.9000), paradox, reticulate, R6
 Suggests: checkmate, distr6, pracma, rmarkdown, simsurv, testthat
 License: LGPL-3
-MD5sum: cbd7fe91b5cee990abdd7ad6f59dae9c
+MD5sum: 6d86d89af1afdfae7eec94dca52b08a6
 
 Package: mlr3learners.randomforest
 Version: 0.1.2
