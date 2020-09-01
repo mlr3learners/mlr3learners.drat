@@ -100,7 +100,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, kernlab, mlr3, mlr3misc, paradox, R6
 Suggests: bibtex, checkmate, testthat
 License: LGPL-3
-MD5sum: d96094430b25893db1b5ff1f897d92c4
+MD5sum: 4cc55e7627b01182849c4fb56b66a6d9
 NeedsCompilation: no
 
 Package: mlr3learners.ks
