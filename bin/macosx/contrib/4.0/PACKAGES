@@ -130,11 +130,11 @@ MD5sum: 8334aeede798f6ed5798dd8acca3b012
 Package: mlr3learners.np
 Version: 0.1.2
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
+Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), np, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 2f4af2b0c387a8042351f41bc287cd71
+MD5sum: 267edcdb9c94a40e6ab27754c5ffb89c
 
 Package: mlr3learners.obliquersf
 Version: 0.1.2
