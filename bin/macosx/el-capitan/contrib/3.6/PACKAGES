@@ -14,6 +14,14 @@ Suggests: checkmate, rmarkdown, testthat
 License: LGPL-3
 MD5sum: fe93c694eaaefbe8bafb2469b4ba103b
 
+Package: mlr3learners.catboost
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: checkmate, data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
+Suggests: bibtex, catboost, rmarkdown, testthat
+License: LGPL-3
+MD5sum: 39c744f66deb5af5c365ccca608ff48b
+
 Package: mlr3learners.coxboost
 Version: 0.1.0
 Depends: R (>= 3.1.0)
