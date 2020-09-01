@@ -83,7 +83,7 @@ Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.2.0),
         paradox, R6
 Suggests: checkmate, distr6 (>= 1.4.2), ks, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 3ddb78ea83d73872858e0c677f1f43a3
+MD5sum: 21f4b713d72952a1fd467947a284a6e6
 
 Package: mlr3learners.liblinear
 Version: 0.2.0
