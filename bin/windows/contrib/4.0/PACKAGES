@@ -167,6 +167,14 @@ Suggests: checkmate, distr6 (>= 1.4.2), pracma, pseudo, rmarkdown,
 License: LGPL-3
 Archs: i386, x64
 
+Package: mlr3learners.pycox
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: data.table, mlr3 (>= 0.5.0), mlr3misc, mlr3proba (>= 0.2.0),
+        paradox, reticulate, R6
+Suggests: checkmate, distr6, pracma, rmarkdown, simsurv, testthat
+License: LGPL-3
+
 Package: mlr3learners.randomforest
 Version: 0.1.2
 Depends: R (>= 3.1.0)
