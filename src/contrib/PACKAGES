@@ -288,11 +288,11 @@ NeedsCompilation: no
 Package: mlr3learners.survival
 Version: 0.1.2
 Depends: R (>= 3.1.0)
-Imports: data.table, distr6 (>= 1.4.2.9000), mlr3 (>= 0.4.0-9000),
-        mlr3misc, mlr3proba (>= 0.2.0.9000), paradox, R6, survival
+Imports: data.table, distr6 (>= 1.4.2), mlr3 (>= 0.4.0), mlr3misc,
+        mlr3proba (>= 0.2.0), paradox, R6, survival
 Suggests: actuar, checkmate, pracma, rmarkdown, set6, testthat
 License: LGPL-3
-MD5sum: 59a9c452bb90ed5d827a3a27b9e8c31e
+MD5sum: 679a9ccfe72e34fb913a8ae3bd787db8
 NeedsCompilation: no
 
 Package: mlr3learners.survivalsvm
