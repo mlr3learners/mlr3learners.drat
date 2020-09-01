@@ -229,7 +229,7 @@ Depends: R (>= 3.1.0)
 Imports: data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: checkmate, rmarkdown, RWeka, testthat
 License: LGPL-3
-MD5sum: c0d678ad2f831d0f59a9ae633cd82c3f
+MD5sum: 7426de4207c7891095277ec7526a0cf1
 
 Package: mlr3learners.sm
 Version: 0.1.2
