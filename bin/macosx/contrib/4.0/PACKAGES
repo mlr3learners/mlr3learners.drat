@@ -12,7 +12,7 @@ Depends: R (>= 3.1.0)
 Imports: checkmate, data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: bibtex, catboost, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 61a9bcdf4455af32379eec35efc90cea
+MD5sum: 16e53760f6144309ef6b04689b3b75b8
 
 Package: mlr3learners.coxboost
 Version: 0.1.2
