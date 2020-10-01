@@ -22,7 +22,7 @@ Depends: R (>= 3.1.0)
 Imports: checkmate, data.table, mlr3 (>= 0.1.7), mlr3misc, paradox, R6
 Suggests: bibtex, catboost, rmarkdown, testthat
 License: LGPL-3
-MD5sum: 9894e819316b42c9af284ec16962c60f
+MD5sum: ed6448207d2f33e9a8ce0e751829eb60
 NeedsCompilation: no
 
 Package: mlr3learners.coxboost
