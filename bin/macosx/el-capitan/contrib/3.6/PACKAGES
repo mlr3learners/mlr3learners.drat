@@ -419,12 +419,14 @@ MD5sum: 567eff733e2a4d7545579eea9789da53
 Package: mlr3learners.proba
 Version: 0.1.0
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.3.0), mlr3misc, mlr3proba (>= 0.1.6),
-        paradox, R6, Rcpp (>= 1.0.4), survival
+Imports: data.table, keras (>= 2.3.0), mlr3 (>= 0.4.0), mlr3misc,
+        mlr3proba (>= 0.2.0), paradox, reticulate (>= 1.16), R6, Rcpp
+        (>= 1.0.4), survival, tensorflow (>= 2.0.0)
 LinkingTo: Rcpp
-Suggests: checkmate, distr6 (>= 1.4.0), pracma, rmarkdown, testthat
+Suggests: checkmate, distr6 (>= 1.4.2), pracma, pseudo, rmarkdown,
+        testthat
 License: LGPL-3
-MD5sum: 154455f3dcb1681c61c39625e8c2d06e
+MD5sum: ff90bb9f93d557a0281d97b0c4535e08
 
 Package: mlr3learners.randomforest
 Version: 0.1.2
