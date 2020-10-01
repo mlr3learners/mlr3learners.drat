@@ -193,7 +193,7 @@ LinkingTo: Rcpp
 Suggests: checkmate, distr6 (>= 1.4.2), pracma, pseudo, rmarkdown,
         testthat
 License: LGPL-3
-MD5sum: e68bd391629ff8339d4d38b1635f549f
+MD5sum: d086f0bc2263ae7b549ed1ae543f7f65
 
 Package: mlr3learners.pycox
 Version: 0.1.0
