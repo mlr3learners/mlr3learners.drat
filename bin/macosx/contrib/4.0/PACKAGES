@@ -198,11 +198,11 @@ MD5sum: d086f0bc2263ae7b549ed1ae543f7f65
 Package: mlr3learners.pycox
 Version: 0.1.0
 Depends: R (>= 3.1.0)
-Imports: data.table, mlr3 (>= 0.5.0), mlr3misc, mlr3proba (>=
-        0.2.0.9000), paradox, reticulate, R6
+Imports: data.table, mlr3 (>= 0.5.0), mlr3misc, mlr3proba (>= 0.2.0),
+        paradox, reticulate, R6
 Suggests: checkmate, distr6, pracma, rmarkdown, simsurv, testthat
 License: LGPL-3
-MD5sum: 6b2ce8f394c8d9043ab230553bad57e6
+MD5sum: 48445ab44d2bbbd091451351ef808e15
 
 Package: mlr3learners.randomforest
 Version: 0.1.2
