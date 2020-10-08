@@ -1,5 +1,10 @@
-
 # mlr3learners.drat
+
+## Deprecated
+
+`mlr3learners.drat` is now deprecated. The majority of learners in this organisation now live in [mlr3extralearners](https://github.com/mlr-org/mlr3extralearners). `mlr3learners.drat` is no longer being maintained and will **stop functioning on 1st January 2021**. Only [mlr3learners.lightgbm](https://github.com/mlr3learners/mlr3learners.lightgbm) is still being maintained in this organisation, for stable releases of all other learners please see [mlr3extralearners](https://github.com/mlr-org/mlr3extralearners).
+
+## mlr3learners.drat
 
 [`drat`](https://github.com/eddelbuettel/drat) package repository for
 the
